@@ -1,0 +1,19 @@
+index
+17
+600 1892 342  right T3 lineage entry, medial posterior
+460 1850 338  center of the anterior-most horizontal stripe in the ventral anterior abdominal ganglion
+555 1016 28   right T1 leg nerve exiting the neuropil. z on this used to be 33, changed it to 28 because the alignment looked meh
+343 1673 220  left T3, bundle that runs into the club feco neurons - next to this location still looks bad, added point 17 to try to help
+539 1666 394  right T3 lineage entry, directly dorsal
+630 1013 179  right T1 location with a dip in synapse density, in a recognizable triangle shape
+562 1015 120  right T1 location with a dip in synapse density, sorta recognizable oval shape. point placement probably not perfect
+529 1512 194  right T2 lineage entry, medial posterior
+621 1517 56   right T2 leg nerve where a bundle hits the synapse protrusion
+688 1904 317  right T3 leg nerve where a bundle hits the synapse protrusion
+201 1815 191  left T3 lineage entry, lateral
+721 1755 247  right T3 lineage entry, lateral
+640 955  90   right T1 at the edge of the neuropil where it's being stretched out. impossible to position this correspondence precisely
+611 1109 100  right T1 lineage entry, lateral posterior
+646 1922 274  right T3 leg nerve, ventralmost point
+304 1977 218  left T3 leg nerve, ventralmost point
+320 1675 244  left T3, recognizable location where a few different bundles merge

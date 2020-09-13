@@ -1,0 +1,12 @@
+neuron 9867: A4
+neuron 9797: A4
+neuron 9755: A3
+neuron 9888: A3
+neuron 9878: A3
+neuron 9857: A5
+neuron 9935: A1
+neuron 9862: A1
+neuron 9929: A1
+neuron 9883: A1
+neuron 9899: A2
+neuron 10299: A2

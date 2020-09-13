@@ -1,0 +1,1 @@
+../../Fig6-Motor_neuron_symmetry_and_uniqueness/catmaid_renderings/set_volume_shading.js

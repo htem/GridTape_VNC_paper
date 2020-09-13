@@ -1,0 +1,54 @@
+(FixedImageDimension 3)
+(MovingImageDimension 3)
+
+(Registration "MultiMetricMultiResolutionRegistration")
+
+(FixedImagePyramid "FixedRecursiveImagePyramid")
+(MovingImagePyramid "MovingRecursiveImagePyramid")
+
+(Optimizer "AdaptiveStochasticGradientDescent")
+(ASGDParameterEstimationMethod "DisplacementDistribution")
+(NumberOfSpatialSamples 2000)
+(CheckNumberOfSamples "true")
+(RequiredRatioOfValidSamples 0.05)
+(MaximumNumberOfSamplingAttempts 3)
+(NewSamplesEveryIteration "true")
+(ImageSampler "RandomCoordinate")
+
+
+(Transform "AffineTransform")
+(AutomaticTransformInitialization "true")
+(AutomaticTransformInitializationMethod "CenterOfGravity")
+(AutomaticScalesEstimation "true")
+(HowToCombineTransforms "Compose")
+
+(Interpolator "LinearInterpolator")
+//(Interpolator "BSplineInterpolator")
+//(BSplineInterpolationOrder 1)
+
+
+(Metric "AdvancedNormalizedCorrelation") //This line can be modified by run_elastix. Do not change
+//(Metric1Use "true" "true" "true" "true") //This line can be modified by run_elastix. Do not change, except as instructed below
+  //If your corresponding points are placed accurately, using them for the whole
+  //alignment is a good idea, so have all "true"s in the line above. However,
+  //accurately placing correspondence points in 3D stacks is hard, so if you
+  //want your points to guide the alignment into roughly the right spot but then
+  //let the image correlations drive the final alignment, the line above should
+  //start with one or two "true"s but then end with a few "false"s.
+
+
+(NumberOfResolutions 4)
+
+(MaximumNumberOfIterations 3000)
+
+
+//Output
+(Resampler "DefaultResampler")
+(ResampleInterpolator "FinalBSplineInterpolator")
+(FinalBSplineInterpolationOrder 3)
+(DefaultPixelValue 0)
+(ResultImagePixelType "float")
+(ResultImageFormat "nrrd")
+(CompressResultImage "true")
+//(WriteResultImageAfterEachResolution "true" "false" "false" "false" "false" "false" "false" "false" "false")
+(WriteResultImage "true") //This is the default, but this line can be changed by run_elastix's -p option, so don't remove this line

@@ -1,0 +1,4 @@
+neuron 16857: D2
+neuron 13025: D2
+neuron 13031: D1
+neuron 13036: D1

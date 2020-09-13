@@ -1,0 +1,205 @@
+#!/bin/bash
+
+show_help () {
+    >&2 echo "Usage: invert_elastix folder_containing_transform_to_invert [-v] [-f] [-o output_suffix] [-n n_threads] [-s spacings] [-w]"
+    >&2 echo "Example: ./invert_elastix ../motor_neurons/21G01-LexA/21G01LexA_vnc2_60x_T1_2019_09_19_neuropil_elastix_to_moving_template/elastix_Bspline/4spacing_20bendingweight"
+    >&2 echo "        Description goes here"
+    >&2 echo "        and can continue here"
+}
+
+if [ "$#" -eq 0 ] || [ "$1" == "--help" ] || [ "$1" == "-h" ]; then
+    show_help
+    exit 1
+fi
+
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+if [ ! -f ${SCRIPT_DIR}/elastixParams_InvertBspline.txt ]; then
+    show_help
+    >&2 echo "ERROR: elastixParams_InvertBspline.txt must exist in current directory"
+    exit 1
+fi
+
+#DEFAULTS FOR ARGUMENT-MODIFIABLE VARIABLES GO HERE
+verbose=false
+fake=false
+output_suffix=""
+moving_template=false
+run_affine=true
+run_Bspline=true
+n_threads="30"
+spacings="6"
+write_intermediate_output=true
+
+
+positionalArgs=()
+unknownOptions=()
+while [ "$#" -gt 0 ]; do
+    case "$1" in
+        -v)
+            verbose=true
+            >&2 echo "Running verbose"
+            shift
+        ;;
+        -f)
+            fake=true
+            >&2 echo "fake=true"
+            shift
+        ;;
+        -o)
+            output_suffix="$2"
+            shift; shift
+        ;;
+        -n)
+            n_threads="$2"
+            shift; shift
+        ;;
+        -s)
+            spacings="$2"
+            shift; shift
+        ;;
+        -w)
+            write_intermediate_output=true
+            shift
+        ;;
+        #-e|--exampleLongOption)
+        #    thisOption=true
+        #    shift
+        #;;
+        #-n|--number) #For flags that take a separate argument (like "-n 8" or any other "-[letter] [argument]"), use this template
+        #    number="$2"
+        #    shift; shift
+        #;;
+        *)
+            if [ " ${1:0:1}" == " -" ]; then #Ignore arguments starting with - that aren't explicitly listed above
+                if [ "$#" -eq 1 ]; then
+                    show_help
+                    >&2 echo "ERROR: The only parameter is an unknown option. Aborting."
+                    exit 1
+                fi
+                unknownOptions+=("$1")
+                >&2 echo "WARNING: Unknown option $1, ignoring"
+            else
+                positionalArgs+=("$1") #Store arguments (other than ones recognized above) in order
+            fi
+            shift
+        ;;
+    esac
+done
+set -- "${positionalArgs[@]}"
+if [ "$#" -ne 1 ]; then
+    >&2 echo "Provide exactly 1 positional argument"
+    show_help
+    exit 1
+fi
+#echo $@
+
+#FAKEABLE COMMANDS GO HERE.
+fakeableCommands="rm mv cp ln chmod mkdir sed exit elastix transformix"
+#For the commands listed here, you can use "$command" instead of "command" anywhere in your code that you want the command to echo instead of execute when running in fake mode. For instance, write the line "$mv file1 file2" instead of "mv file1 file2" if you want that line's mv command to not execute when the -f flag is given. If you write "mv file1 file2", then your mv command will happen normally regardless of if -f is given.
+
+if $fake; then
+    for cmd in $fakeableCommands; do
+        eval $cmd=\"echo \$cmd\"
+    done
+else
+    for cmd in $fakeableCommands; do
+        eval $cmd=\"\$cmd\"
+    done
+fi
+
+
+#CODE GOES HERE
+
+base=$1 #$(realpath "$1")
+if [ ! -d "$base" ]; then
+    show_help
+    >&2 echo "ERROR: Argument must be an existing folder"
+    exit 1
+fi
+
+elastix_log=$base/elastix.log
+if [ ! -f "$elastix_log" ]; then
+    show_help
+    >&2 echo "ERROR: elastix.log not present in $base"
+    exit 1
+fi
+
+moving=$(grep -- "-m  " "$elastix_log" | sed 's/-m *//')
+if [ ! -f "$moving" ]; then
+    moving=$(realpath $base/../../../$moving)
+    if [ ! -f  "$moving" ]; then
+        show_help
+        >&2 echo "ERROR: moving image could not be found at $moving"
+        exit 1
+    fi
+fi
+fixed=$(grep -- "-f  " "$elastix_log" | sed 's/-f *//')
+if [ ! -f "$fixed" ]; then
+    fixed=$(realpath "$base/../../../$fixed")
+    if [ ! -f  "$fixed" ]; then
+        show_help
+        >&2 echo "ERROR: fixed image could not be found at $fixed"
+        exit 1
+    fi
+fi
+
+echo "Fixed: $fixed"
+echo "Moving: $moving"
+
+if [ ! -f "$base/TransformParameters.0.txt" ]; then
+    show_help
+    echo "ERROR: TransformationParameters.0.txt not present in $base"
+    exit 1
+fi
+
+if [ -n "$output_suffix" ]; then
+    output_suffix=_$output_suffix #Put a _ in just before the suffix if it's non-empty
+fi
+
+for spacing in $spacings; do
+    output_folder=$base/inverted_${spacing}spacing$output_suffix
+
+    mkdir -p $output_folder
+    elastixParams="$output_folder/elastixParams_InvertBspline.txt"
+
+    if [ -e "$elastixParams" -a ! -w "$elastixParams" ]; then
+        >&2 read -p "Parameter file already present ($elastixParams) but not overwritable. Are you sure you want to overwrite it? (y/n) " input
+        case $input in [yY]) echo "Overwriting"; chmod +w "$elastixParams";; *) echo "Exiting"; exit 1 ;; esac
+    fi 
+    cp "${SCRIPT_DIR}/elastixParams_InvertBspline.txt" "$elastixParams"
+    sed -i "s/(FinalGridSpacingInPhysicalUnits _GRIDSPACING_)/(FinalGridSpacingInPhysicalUnits $spacing)/" "$elastixParams"
+    if $write_intermediate_output; then sed -i 's/(WriteResultImage "false")/(WriteResultImage "true")/' "$elastixParams"; fi
+    $chmod -w "$elastixParams"
+
+    echo "Inverting $base/TransformParameters.0.txt with GridSpacing $spacing"
+    #To invert a transform, -f and -m are both set to be the original moving image, and -t0 is set to the transform.
+    #This is opposite of what the elastix manual says to do (where it says to set -f and -m to the fixed image)
+    #but I tested both ways, and the inversion only worked correctly for me with -f and -m set to the moving image.
+    $elastix -f "$moving" -m "$moving" -out "$output_folder/" \
+        -t0 "$base/TransformParameters.0.txt" -threads $n_threads -p "$elastixParams"
+
+    if [ ! -f "$output_folder/TransformParameters.0.txt" ]; then
+        show_help
+        echo "ERROR: Elastix failed, stopping invert_elastix"
+        $exit 1
+    fi
+
+    if [ -f "$output_folder/result.0.nrrd" ]; then $mv "$output_folder/result.0.nrrd" "$output_folder/result.0.composedForwardAndInverseTransforms.nrrd"; fi
+
+    $cp "$output_folder/TransformParameters.0.txt" "$output_folder/TransformParameters.1.txt"
+    $sed -i 's/(InitialTransformParametersFileName.*)/(InitialTransformParametersFileName "NoInitialTransform")/' "$output_folder/TransformParameters.1.txt"
+
+    #Apply the inverted transform to the fixed image
+    $transformix -in "$fixed" \
+        -out "$output_folder/" \
+        -tp "$output_folder/TransformParameters.1.txt" \
+        -threads $n_threads
+
+    if [ ! -f "$output_folder/result.nrrd" ]; then
+        show_help
+        >&2 echo "ERROR: Transformix failed. Exiting."
+        exit 1
+    fi
+
+    $mv "$output_folder/result.nrrd" "$output_folder/result.1.nrrd"
+done

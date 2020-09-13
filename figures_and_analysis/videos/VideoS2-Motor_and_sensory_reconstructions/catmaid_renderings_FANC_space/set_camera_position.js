@@ -1,0 +1,1 @@
+../../../Fig3-Motor_and_sensory_reconstructions/catmaid_renderings_FANC_space/set_camera_position.js

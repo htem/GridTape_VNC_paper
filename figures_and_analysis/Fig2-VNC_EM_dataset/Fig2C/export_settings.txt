@@ -1,0 +1,4 @@
+3D viewer > View settings tab > Background: white
+3D viewer > View settings tab > Floor: unchecked
+3D viewer > Stacks tab > Bounding box: checked
+3D viewer > Export tab > PNG > Image Width (px): 1000, Image height (px): 2000

@@ -1,0 +1,6 @@
+3D viewer > View settings tab > Line width: 3
+3D viewer > View settings tab > Background: white
+3D viewer > View settings tab > Floor: unchecked
+3D viewer > Stacks tab > Bounding box: unchecked
+Selection 1 > uncheck the "pre", "post", and "meta" columns
+3D viewer > Export tab > PNG > Image Width (px): 1800, Image height (px): 3000

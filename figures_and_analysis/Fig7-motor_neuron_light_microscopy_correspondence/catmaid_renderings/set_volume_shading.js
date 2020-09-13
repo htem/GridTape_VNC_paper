@@ -1,0 +1,1 @@
+../../catmaidVolumes/set_volume_shading_template_neuropil3percent.js

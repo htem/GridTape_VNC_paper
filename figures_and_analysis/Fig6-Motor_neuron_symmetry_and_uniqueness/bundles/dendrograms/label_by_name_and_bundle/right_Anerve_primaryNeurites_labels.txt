@@ -1,0 +1,12 @@
+neuron 3040: A4
+neuron 10986: A4
+neuron 10841: A3
+neuron 2220: A3
+neuron 2216: A3
+neuron 11657: A5
+neuron 11597: A1
+neuron 11715: A1
+neuron 11413: A1
+neuron 12239: A1
+neuron 11944: A2
+neuron 12275: A2

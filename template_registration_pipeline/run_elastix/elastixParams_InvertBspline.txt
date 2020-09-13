@@ -1,0 +1,42 @@
+(FixedImageDimension 3)
+(MovingImageDimension 3)
+
+(Registration "MultiResolutionRegistration")
+
+(FixedImagePyramid "FixedRecursiveImagePyramid")
+(MovingImagePyramid "MovingRecursiveImagePyramid")
+
+(Optimizer "AdaptiveStochasticGradientDescent")
+(ASGDParameterEstimation "DisplacementDistribution")
+(NumberOfSpatialSamples 4000)
+(CheckNumberOfSamples "false")
+(NewSamplesEveryIteration "true")
+(ImageSampler "RandomCoordinate")
+
+(Transform "RecursiveBSplineTransform")
+(HowToCombineTransforms "Compose")
+
+(Interpolator "LinearInterpolator")
+
+(Metric "DisplacementMagnitudePenalty")
+
+
+(NumberOfResolutions 5)
+(ImagePyramidSchedule 8 8 8  4 4 4  2 2 2  1 1 1  1 1 1)
+
+(FinalGridSpacingInPhysicalUnits _GRIDSPACING_)
+(GridSpacingSchedule 8  4  2  1  1)
+
+(MaximumNumberOfIterations 1000 1000 2000 4000 6000)
+
+
+//Output
+(Resampler "DefaultResampler")
+(ResampleInterpolator "FinalBSplineInterpolator")
+(FinalBSplineInterpolationOrder 3)
+(DefaultPixelValue 0)
+(ResultImagePixelType "float")
+(ResultImageFormat "nrrd")
+(CompressResultImage "true")
+(WriteResultImageAfterEachResolution "false" "false" "false" "false" "false")
+(WriteResultImage "false") //This line can be changed by invert_elastix's -w option, so don't remove this line

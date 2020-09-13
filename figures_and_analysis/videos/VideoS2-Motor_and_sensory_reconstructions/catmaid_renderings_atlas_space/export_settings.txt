@@ -1,0 +1,6 @@
+3D viewer > View settings tab > Line width: 1
+3D viewer > View settings tab > Background: white
+3D viewer > View settings tab > Floor: unchecked
+3D viewer > Stacks tab > Bounding box: unchecked
+Selection 1 > uncheck the "meta" column
+3D viewer > Export tab > Animation > # Rotations: 1, Rotation time (s): 10, Frames per second: 30, Image Width (px): 450, Image height (px): 750

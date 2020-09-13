@@ -1,0 +1,11 @@
+neuron 11792: V2
+neuron 11787: V2
+neuron 10372: V6
+neuron 10367: V3
+neuron 10385: V3
+neuron 11797: V5
+neuron 11817: V1
+neuron 10377: V1
+neuron 11802: V1
+neuron 10223: V4
+neuron 10208: V4

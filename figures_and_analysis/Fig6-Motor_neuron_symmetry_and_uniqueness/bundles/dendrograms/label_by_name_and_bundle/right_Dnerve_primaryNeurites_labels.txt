@@ -1,0 +1,4 @@
+neuron 11320: D1
+neuron 2236: D1
+neuron 11403: D2
+neuron 11380: D2

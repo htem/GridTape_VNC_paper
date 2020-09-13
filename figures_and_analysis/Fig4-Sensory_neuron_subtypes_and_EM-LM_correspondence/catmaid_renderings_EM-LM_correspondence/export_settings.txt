@@ -1,0 +1,6 @@
+3D viewer > View settings tab > Line width: 6 for the LM-neuron only renderings, 7 for the LM+EM and EM-only renderings
+3D viewer > View settings tab > Background: white
+3D viewer > View settings tab > Floor: unchecked
+3D viewer > Stacks tab > Bounding box: unchecked
+Selection 1 > uncheck the "meta" column
+3D viewer > Export tab > PNG > Image Width (px): 2900, Image height (px): 2400

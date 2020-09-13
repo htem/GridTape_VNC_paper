@@ -1,0 +1,275 @@
+{
+    "neuron 83341": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "receives 5+ total synapses in left T1 from left or right T1 bCS",
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "left soma",
+        "central neuron"
+    ],
+    "neuron 87095": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "central neuron"
+    ],
+    "neuron 115485": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "left soma",
+        "central neuron"
+    ],
+    "neuron 11440": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 multinerve neuron",
+        "efferent neuron",
+        "right T1 dorsal nerve",
+        "posterior soma",
+        "right soma"
+    ],
+    "neuron 107303": [
+        "T3 leg DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "left T3 leg nerve",
+        "right T3 leg nerve",
+        "right first abdominal nerve",
+        "left first abdominal nerve",
+        "efferent neuron"
+    ],
+    "neuron 104469": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "left soma",
+        "central neuron"
+    ],
+    "neuron 70241": [
+        "T2 leg DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "right dorsal-5 branch of T2 leg nerve",
+        "nerve deduced by homology",
+        "right T2 accessory nerve",
+        "left T2 accessory nerve",
+        "left ventral-3 branch of T2 leg nerve",
+        "left dorsal-3 branch of T2 leg nerve",
+        "left dorsal-5 branch of T2 leg nerve",
+        "efferent neuron",
+        "right T2 leg nerve",
+        "left T2 leg nerve"
+    ],
+    "neuron 86814": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "left soma",
+        "central neuron"
+    ],
+    "neuron 73129": [
+        "wing DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "left dorsal-5 branch of T2 leg nerve",
+        "efferent neuron",
+        "right anterior dorsal mesothoracic nerve",
+        "right T2 accessory nerve",
+        "left T2 accessory nerve",
+        "left anterior dorsal mesothoracic nerve"
+    ],
+    "neuron 71286": [
+        "wing DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "efferent neuron",
+        "right T2 accessory nerve",
+        "left anterior dorsal mesothoracic nerve",
+        "left T2 accessory nerve",
+        "right anterior dorsal mesothoracic nerve"
+    ],
+    "neuron 9873": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 multinerve neuron",
+        "efferent neuron",
+        "posterior soma",
+        "left soma",
+        "left T1 dorsal nerve",
+        "left T1 accessory nerve"
+    ],
+    "neuron 83503": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "left soma",
+        "neuron",
+        "central neuron"
+    ],
+    "neuron 76863": [
+        "T3 leg DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "efferent neuron",
+        "right T3 leg nerve",
+        "left T3 leg nerve"
+    ],
+    "neuron 65856": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "receives 5+ total synapses in left T1 from left or right T1 bCS",
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "needs review",
+        "left soma",
+        "central neuron"
+    ],
+    "neuron 30721": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "left soma",
+        "central neuron"
+    ],
+    "neuron 71278": [
+        "wing DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "efferent neuron",
+        "left anterior dorsal mesothoracic nerve",
+        "right T2 accessory nerve",
+        "left T2 accessory nerve",
+        "right anterior dorsal mesothoracic nerve"
+    ],
+    "neuron 9494": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "neck DUM neuron",
+        "efferent neuron",
+        "right cervical nerve",
+        "left cervical nerve"
+    ],
+    "neuron 115534": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "left soma",
+        "central neuron"
+    ],
+    "peripherally synapsing interneuron_left": [
+        "peripherally synapsing interneuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "efferent neuron",
+        "left-right homologs 12916 & 69998",
+        "right posterior dorsal mesothoracic nerve",
+        "left soma"
+    ],
+    "neuron 83593": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "receives 5+ total synapses in left T1 from left or right T1 bCS",
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "midline soma",
+        "central neuron"
+    ],
+    "Neuron 243834": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "left soma",
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "central neuron"
+    ],
+    "neuron 116675": [
+        "haltere DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "efferent neuron",
+        "left haltere nerve",
+        "right haltere nerve"
+    ],
+    "peripherally synapsing interneuron_right": [
+        "peripherally synapsing interneuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "efferent neuron",
+        "left-right homologs 12916 & 69998",
+        "left posterior dorsal mesothoracic nerve",
+        "right soma"
+    ],
+    "neuron 252963": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "left soma",
+        "central neuron",
+        "neuron"
+    ],
+    "neuron 9203": [
+        "T1 leg DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "efferent neuron",
+        "leaves through damage",
+        "left T1 ventral nerve",
+        "left T1 accessory nerve",
+        "left T1 leg nerve"
+    ],
+    "neuron 65807": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "receives 5+ total synapses in left T1 from left or right T1 bCS",
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "left soma",
+        "central neuron"
+    ],
+    "neuron 73169": [
+        "wing DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "efferent neuron",
+        "left posterior dorsal mesothoracic nerve",
+        "right posterior dorsal mesothoracic nerve"
+    ],
+    "neuron 9772": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "left T1 dorsal nerve",
+        "left T1 accessory nerve",
+        "left soma",
+        "posterior soma",
+        "T1 multinerve neuron",
+        "efferent neuron"
+    ],
+    "neuron 9477": [
+        "T1 leg DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "efferent neuron",
+        "left T1 dorsal nerve",
+        "left T1 accessory nerve",
+        "left T1 leg nerve",
+        "leaves through damage"
+    ],
+    "neuron 11698": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 multinerve neuron",
+        "efferent neuron",
+        "right T1 dorsal nerve",
+        "posterior soma",
+        "right soma"
+    ],
+    "Neuron 244639": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "left soma",
+        "neuron",
+        "central neuron"
+    ],
+    "neuron 117471": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "left soma",
+        "central neuron"
+    ],
+    "neuron 27921": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "left soma",
+        "central neuron"
+    ],
+    "neuron 72932": [
+        "wing DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "efferent neuron",
+        "left posterior dorsal mesothoracic nerve",
+        "right posterior dorsal mesothoracic nerve",
+        "neuron"
+    ],
+    "neuron 102912": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "receives 5+ total synapses in left T1 from left or right T1 bCS",
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "midline soma",
+        "central neuron"
+    ],
+    "neuron 73185": [
+        "wing DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "efferent neuron",
+        "left anterior dorsal mesothoracic nerve",
+        "left T2 accessory nerve",
+        "right anterior dorsal mesothoracic nerve"
+    ]
+}

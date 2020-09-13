@@ -1,0 +1,32 @@
+[
+ {
+  "skeleton_id": 20917,
+  "color": "#a2142f",
+  "opacity": 1
+ },
+ {
+  "skeleton_id": 26820,
+  "color": "#a2142f",
+  "opacity": 1
+ },
+ {
+  "skeleton_id": 34069,
+  "color": "#ff0000",
+  "opacity": 1
+ },
+ {
+  "skeleton_id": 79292,
+  "color": "#ff0000",
+  "opacity": 1
+ },
+ {
+  "skeleton_id": 2713,
+  "color": "#0000ff",
+  "opacity": 1
+ },
+ {
+  "skeleton_id": 9206,
+  "color": "#ffff00",
+  "opacity": 0.50
+ }
+]

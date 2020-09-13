@@ -1,0 +1,1 @@
+../../catmaidViews/left_T1/leftT1_lateralView_orthographic_for_bCS_synapse_branches.js

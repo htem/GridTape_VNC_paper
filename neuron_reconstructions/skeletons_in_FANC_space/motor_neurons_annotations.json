@@ -1,0 +1,4324 @@
+{
+    "neuron 70012": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron PDMN1 bundle",
+        "wing motor neuron",
+        "contains presynapses",
+        "left posterior dorsal mesothoracic nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1#13 (neuron 10768)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9557 & 10768",
+        "right T1 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 74464": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron A6 bundle",
+        "left T2 accessory nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 70870": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L8 bundle",
+        "right dorsal-5 branch of T2 leg nerve",
+        "right soma",
+        "posterior soma",
+        "motor neuron"
+    ],
+    "neuron 71200": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN2 bundle",
+        "wing motor neuron",
+        "possible left-right homologs 75010 & 71200",
+        "right anterior dorsal mesothoracic nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 106983": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "left soma",
+        "left T3 leg nerve",
+        "motor neuron"
+    ],
+    "neuron 10829": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "neck motor neuron",
+        "neck motor neuron D bundle",
+        "motor neuron",
+        "right T1 dorsal nerve",
+        "right soma"
+    ],
+    "neuron 105272": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L18 bundle",
+        "left T3 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 18554": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "right T2 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 99764": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L18 bundle",
+        "motor neuron",
+        "right T3 leg nerve",
+        "right soma"
+    ],
+    "neuron 93909": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "left T3 leg nerve",
+        "motor neuron",
+        "left soma"
+    ],
+    "T1 leg motor neuron A3#03 (neuron 2216)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron A3 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9888 & 2216",
+        "right T1 accessory nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 18438": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron",
+        "wing motor neuron A10 bundle",
+        "posterior soma",
+        "left T2 accessory nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 73112": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L10 bundle",
+        "left-right homologs 70636 & 73112",
+        "right dorsal-5 branch of T2 leg nerve",
+        "right soma",
+        "motor neuron",
+        "neuron"
+    ],
+    "neuron 117664": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "haltere motor neuron",
+        "right first abdominal nerve",
+        "haltere motor neuron T3 H1 bundle",
+        "right soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron D1#02 (neuron 11320)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron D1 bundle",
+        "left-right homologs 13036 & 11320",
+        "T1 leg motor neuron",
+        "right T1 dorsal nerve",
+        "leaves through damage",
+        "motor neuron",
+        "right soma"
+    ],
+    "T1 leg motor neuron L1#15 (neuron 11392)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9687 & 11392",
+        "right T1 leg nerve",
+        "leaves through damage",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 74890": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN1 bundle",
+        "wing motor neuron",
+        "left soma",
+        "left anterior dorsal mesothoracic nerve",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L3#03 (neuron 10776)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L3 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9001 & 10776",
+        "right T1 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 123645": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron tbd bundle",
+        "T3 leg motor neuron",
+        "left T3 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L2#04 (neuron 9175)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron",
+        "T1 leg motor neuron L2 bundle",
+        "left-right homologs 9175 & 16185",
+        "left T1 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 123734": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron tbd bundle",
+        "T3 leg motor neuron",
+        "right soma",
+        "right T3 leg nerve",
+        "motor neuron"
+    ],
+    "neuron 98642": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "right T3 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 10813": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron PDMN1 bundle",
+        "wing motor neuron",
+        "contains presynapses",
+        "right posterior dorsal mesothoracic nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 76001": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "neck motor neuron",
+        "neck motor neuron C1 bundle",
+        "left soma",
+        "right cervical nerve",
+        "motor neuron"
+    ],
+    "neuron 69878": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "right T2 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 71394": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron",
+        "wing motor neuron A9 bundle",
+        "left T2 accessory nerve",
+        "posterior soma",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 106226": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "left T3 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1#12 (neuron 9207)": [
+        "top NBLAST hit for 35C09-Gal4",
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "figure",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9207 & 16770",
+        "left T1 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 99467": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L15 bundle",
+        "right soma",
+        "motor neuron",
+        "posterior soma",
+        "right T3 leg nerve"
+    ],
+    "neuron 75530": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "left T3 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 103947": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "left soma",
+        "left T3 leg nerve",
+        "motor neuron"
+    ],
+    "neuron 99745": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "motor neuron",
+        "right soma",
+        "right T3 leg nerve"
+    ],
+    "neuron 70277": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L11 bundle",
+        "left-right homologs 70277 & 70316",
+        "left T2 leg nerve",
+        "posterior soma",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 104136": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "haltere motor neuron",
+        "haltere motor neuron T3 H3 bundle",
+        "left T3 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 69551": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L6 bundle",
+        "left T2 leg nerve",
+        "motor neuron",
+        "left soma"
+    ],
+    "T1 leg motor neuron L2#03 (neuron 488)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "left-right homologs 488 & 10971",
+        "T1 leg motor neuron L2 bundle",
+        "T1 leg motor neuron",
+        "left T1 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 99651": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "motor neuron",
+        "right soma",
+        "right T3 leg nerve"
+    ],
+    "neuron 117683": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "haltere motor neuron",
+        "right first abdominal nerve",
+        "haltere motor neuron T3 H1 bundle",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 47543": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN1 bundle",
+        "wing motor neuron",
+        "right anterior dorsal mesothoracic nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 99783": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "right soma",
+        "right T3 leg nerve",
+        "motor neuron"
+    ],
+    "neuron 106682": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L18 bundle",
+        "left T3 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 15499": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "neck motor neuron",
+        "neck motor neuron D bundle",
+        "left T1 dorsal nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 75050": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron PDMN1 bundle",
+        "wing motor neuron",
+        "left posterior dorsal mesothoracic nerve",
+        "motor neuron",
+        "left soma"
+    ],
+    "neuron 42036": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L12 bundle",
+        "left soma",
+        "left-right homologs 42036 & 18572",
+        "left T2 leg nerve",
+        "motor neuron"
+    ],
+    "neuron 100006": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "right T3 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 18617": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "right T2 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 70020": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron PDMN2 bundle",
+        "wing motor neuron",
+        "left-right homologs 15084 & 70020",
+        "contains presynapses",
+        "left posterior dorsal mesothoracic nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 96932": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "haltere motor neuron",
+        "left first abdominal nerve",
+        "haltere motor neuron T3 H1 bundle",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 18035": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L9 bundle",
+        "right dorsal-3 branch of T2 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 74475": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L7 bundle",
+        "left ventral-3 branch of T2 leg nerve",
+        "motor neuron",
+        "left soma"
+    ],
+    "neuron 42110": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 18216": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "right T2 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 70742": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron PDMN bundle",
+        "right soma",
+        "right posterior dorsal mesothoracic nerve",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L2#02 (neuron 10781)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "left-right homologs 484 & 10781",
+        "T1 leg motor neuron L2 bundle",
+        "motor neuron",
+        "T1 leg motor neuron",
+        "right T1 leg nerve",
+        "leaves through damage",
+        "right soma"
+    ],
+    "T1 leg motor neuron L1#08 (neuron 476)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 476 & 2180",
+        "left T1 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 74416": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L7 bundle",
+        "left ventral-3 branch of T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 18195": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L6 bundle",
+        "right T2 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 18572": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L12 bundle",
+        "left-right homologs 42036 & 18572",
+        "right T2 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 70647": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 70831": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "right soma",
+        "T2 leg motor neuron L8 bundle",
+        "T2 leg motor neuron",
+        "cell type deduced by homology",
+        "motor neuron",
+        "right dorsal-5 branch of T2 leg nerve",
+        "neuron"
+    ],
+    "neuron 98525": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "haltere motor neuron",
+        "haltere motor neuron T3 H1 bundle",
+        "right T3 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 107348": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "haltere motor neuron",
+        "left first abdominal nerve",
+        "haltere motor neuron T3 H2 bundle",
+        "motor neuron",
+        "left soma"
+    ],
+    "neuron 106676": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "left soma",
+        "left T3 leg nerve",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1 bundle (neuron 12803)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9191 & 12803",
+        "right T1 leg nerve",
+        "leaves through damage",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 15505": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "neck motor neuron",
+        "neck motor neuron D bundle",
+        "left T1 dorsal nerve",
+        "motor neuron",
+        "left soma"
+    ],
+    "neuron 74545": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron",
+        "wing motor neuron A9 bundle",
+        "posterior soma",
+        "right T2 accessory nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 74817": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN1 bundle",
+        "wing motor neuron",
+        "left soma",
+        "left anterior dorsal mesothoracic nerve",
+        "motor neuron"
+    ],
+    "neuron 100648": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "right T3 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "T1 leg motor neuron L1 bundle (neuron 9195)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "top NBLAST hit for 33C10-LexA, after excluding D bundles",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left T1 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 70444": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L7 bundle",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 18581": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "right T2 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 74857": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron PDMN1 bundle",
+        "wing motor neuron",
+        "motor neuron",
+        "left soma",
+        "left posterior dorsal mesothoracic nerve"
+    ],
+    "T1 leg motor neuron V3 bundle (neuron 12321)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron V3 bundle",
+        "T1 leg motor neuron",
+        "right soma",
+        "motor neuron",
+        "leaves through damage",
+        "right T1 ventral nerve"
+    ],
+    "neuron 69842": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 42326": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "left T2 leg nerve",
+        "motor neuron",
+        "left soma"
+    ],
+    "T1 leg motor neuron L1#18 (neuron 10424)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "left-right homologs 10424 & 16223",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left T1 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 101220": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "motor neuron",
+        "right soma",
+        "right T3 leg nerve"
+    ],
+    "neuron 70076": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "right T2 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 70430": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L6 bundle",
+        "right T2 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 100790": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L15 bundle",
+        "posterior soma",
+        "motor neuron",
+        "right T3 leg nerve",
+        "right soma"
+    ],
+    "neuron 103985": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "left soma",
+        "left T3 leg nerve",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron V2#02 (neuron 11792)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron V2 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 11792 & 17387",
+        "left T1 ventral nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 96483": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "motor neuron",
+        "left T3 leg nerve",
+        "left soma"
+    ],
+    "neuron 70843": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN1 bundle",
+        "wing motor neuron",
+        "right anterior dorsal mesothoracic nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 76547": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L6 bundle",
+        "left T2 leg nerve",
+        "motor neuron",
+        "left soma"
+    ],
+    "neuron 118394": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "haltere motor neuron",
+        "right first abdominal nerve",
+        "haltere motor neuron T3 H1 bundle",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 117009": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "haltere motor neuron",
+        "left first abdominal nerve",
+        "haltere motor neuron T3 H1 bundle",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 102899": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "right T3 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 104037": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "left T3 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1#15 (neuron 9687)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9687 & 11392",
+        "left T1 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 99417": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "right T3 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 105292": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L15 bundle",
+        "left T3 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 73155": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L7 bundle",
+        "right ventral-3 branch of T2 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron V2#02 (neuron 17387)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron V2 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 11792 & 17387",
+        "right T1 ventral nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 70835": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN1 bundle",
+        "wing motor neuron",
+        "right anterior dorsal mesothoracic nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 118348": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "haltere motor neuron",
+        "right first abdominal nerve",
+        "haltere motor neuron T3 H2 bundle",
+        "right soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1 bundle (neuron 9013)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "neuron",
+        "T1 leg motor neuron",
+        "motor neuron",
+        "left T1 leg nerve",
+        "left soma"
+    ],
+    "neuron 189392": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "left soma",
+        "haltere motor neuron HN bundle",
+        "haltere motor neuron",
+        "left-right homologs 189382 & 193447",
+        "left haltere nerve",
+        "motor neuron"
+    ],
+    "neuron 99711": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "motor neuron",
+        "right T3 leg nerve",
+        "right soma"
+    ],
+    "neuron 113902": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "right soma",
+        "motor neuron",
+        "right T3 leg nerve"
+    ],
+    "neuron 117001": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "haltere motor neuron",
+        "left first abdominal nerve",
+        "haltere motor neuron T3 H1 bundle",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 103827": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "left soma",
+        "left T3 leg nerve",
+        "motor neuron"
+    ],
+    "neuron 69636": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 114070": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "haltere motor neuron",
+        "left first abdominal nerve",
+        "haltere motor neuron T3 H1 bundle",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 116941": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L16 bundle",
+        "left T3 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L2 bundle (neuron 33306)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L2 bundle",
+        "right soma",
+        "motor neuron",
+        "T1 leg motor neuron",
+        "right T1 leg nerve"
+    ],
+    "neuron 76664": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L6 bundle",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 117646": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "haltere motor neuron",
+        "right first abdominal nerve",
+        "haltere motor neuron T3 H2 bundle",
+        "right soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1#05 (neuron 12262)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 12262 & 16802",
+        "left T1 leg nerve",
+        "motor neuron",
+        "left soma"
+    ],
+    "neuron 18433": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron",
+        "wing motor neuron A9 bundle",
+        "left T2 accessory nerve",
+        "posterior soma",
+        "motor neuron",
+        "left soma"
+    ],
+    "neuron 3818": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "neck motor neuron",
+        "neck motor neuron D bundle",
+        "right T1 dorsal nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 99808": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "motor neuron",
+        "right T3 leg nerve",
+        "right soma"
+    ],
+    "T1 leg motor neuron L1 bundle (neuron 11182)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9009 & 11182",
+        "right T1 leg nerve",
+        "possible 22a08",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 98544": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "motor neuron",
+        "right T3 leg nerve",
+        "right soma"
+    ],
+    "neuron 70882": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN1 bundle",
+        "wing motor neuron",
+        "right anterior dorsal mesothoracic nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 96620": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "left soma",
+        "left T3 leg nerve",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1 bundle (neuron 12442)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "leaves through damage",
+        "motor neuron",
+        "right soma",
+        "right T1 leg nerve"
+    ],
+    "T1 leg motor neuron V6#01 (neuron 10802)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron V6 bundle",
+        "left-right homologs 10372 & 10802",
+        "T1 leg motor neuron",
+        "right T1 ventral nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 99687": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L18 bundle",
+        "right T3 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 118197": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron A11 bundle",
+        "right first abdominal nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron A5#01 (neuron 11657)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron A5 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9857 & 11657",
+        "right T1 accessory nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 99890": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "motor neuron",
+        "right T3 leg nerve",
+        "right soma"
+    ],
+    "neuron 11002": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "neck motor neuron",
+        "neck motor neuron D bundle",
+        "right T1 dorsal nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L4#01 (neuron 16242)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L4 bundle",
+        "T1 leg motor neuron",
+        "motor neuron",
+        "right soma",
+        "left-right homologs 12243 & 16242",
+        "right T1 leg nerve"
+    ],
+    "T1 leg motor neuron D2#01 (neuron 13025)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "motor neuron",
+        "T1 leg motor neuron D2 bundle",
+        "left-right homologs 13025 & 11403",
+        "T1 leg motor neuron",
+        "left T1 dorsal nerve",
+        "left soma"
+    ],
+    "T1 leg motor neuron L1#10 (neuron 8992)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "neuron",
+        "T1 leg motor neuron",
+        "left T1 leg nerve",
+        "motor neuron",
+        "left soma",
+        "left-right homologs 8992 & 12425"
+    ],
+    "neuron 70589": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L8 bundle",
+        "left dorsal-5 branch of T2 leg nerve",
+        "posterior soma",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L3#03 (neuron 9001)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L3 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9001 & 10776",
+        "left T1 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 100675": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "right T3 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "T1 leg motor neuron L1#14 (neuron 11213)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "motor neuron",
+        "right soma",
+        "leaves through damage",
+        "left-right homologs 9630 & 11213",
+        "right T1 leg nerve",
+        "possible 22a08"
+    ],
+    "T1 leg motor neuron A3#02 (neuron 2220)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron A3 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9878 & 2220",
+        "right T1 accessory nerve",
+        "right soma",
+        "leaves through damage",
+        "motor neuron"
+    ],
+    "neuron 70912": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L8 bundle",
+        "right dorsal-5 branch of T2 leg nerve",
+        "posterior soma",
+        "right soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron A1#03 (neuron 9929)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron A1 bundle",
+        "left-right homologs 9929 & 11413",
+        "motor neuron",
+        "T1 leg motor neuron",
+        "left T1 accessory nerve",
+        "left soma",
+        "posterior soma"
+    ],
+    "T1 leg motor neuron L2 bundle (neuron 21098)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L2 bundle",
+        "T1 leg motor neuron",
+        "right soma",
+        "motor neuron",
+        "right T1 leg nerve"
+    ],
+    "neuron 75085": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron PDMN bundle",
+        "left soma",
+        "motor neuron",
+        "left posterior dorsal mesothoracic nerve"
+    ],
+    "T1 leg motor neuron A2#02 (neuron 12275)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron A2 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9899 & 12275",
+        "right T1 accessory nerve",
+        "motor neuron",
+        "posterior soma",
+        "right soma"
+    ],
+    "neuron 42055": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L7 bundle",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron A5#01 (neuron 9857)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron A5 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9857 & 11657",
+        "left T1 accessory nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 100973": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "haltere motor neuron",
+        "haltere motor neuron T3 H1 bundle",
+        "right T3 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 106146": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L18 bundle",
+        "left soma",
+        "motor neuron",
+        "left T3 leg nerve"
+    ],
+    "neuron 117658": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "haltere motor neuron",
+        "right first abdominal nerve",
+        "haltere motor neuron T3 H1 bundle",
+        "motor neuron",
+        "right soma"
+    ],
+    "T1 leg motor neuron L3#01 (neuron 11339)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "left-right homologs 12257 & 11339",
+        "T1 leg motor neuron L3 bundle",
+        "T1 leg motor neuron",
+        "right T1 leg nerve",
+        "leaves through damage",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 100890": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L18 bundle",
+        "motor neuron",
+        "right soma",
+        "right T3 leg nerve"
+    ],
+    "neuron 28292": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L9 bundle",
+        "left dorsal-3 branch of T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron V4#01 (neuron 10208)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "motor neuron",
+        "left soma",
+        "left-right homologs 10208 & 10796",
+        "T1 leg motor neuron V4 bundle",
+        "T1 leg motor neuron",
+        "left T1 ventral nerve"
+    ],
+    "T1 leg motor neuron L1#07 (neuron 472)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 472 & 16026",
+        "left T1 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 18360": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "right T2 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 103961": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "left T3 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron A2#01 (neuron 11944)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron A2 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 10299 & 11944",
+        "right T1 accessory nerve",
+        "leaves through damage",
+        "motor neuron",
+        "right soma",
+        "posterior soma"
+    ],
+    "neuron 28381": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L6 bundle",
+        "right ventral-2 branch of T2 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 106570": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "motor neuron",
+        "left soma",
+        "left T3 leg nerve"
+    ],
+    "neuron 28283": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L9 bundle",
+        "motor neuron",
+        "left dorsal-3 branch of T2 leg nerve",
+        "left soma"
+    ],
+    "neuron 28386": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron A6 bundle",
+        "right T2 accessory nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 18000": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L9 bundle",
+        "right dorsal-3 branch of T2 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "T1 leg motor neuron L4#01 (neuron 12243)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L4 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 12243 & 16242",
+        "left T1 leg nerve",
+        "motor neuron",
+        "left soma"
+    ],
+    "neuron 48223": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN1 bundle",
+        "wing motor neuron",
+        "right anterior dorsal mesothoracic nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron A4#02 (neuron 9867)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron A4 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9867 & 10986",
+        "left T1 accessory nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 12990": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "neck motor neuron",
+        "neck motor neuron D bundle",
+        "left T1 dorsal nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron A4#01 (neuron 3040)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron A4 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9797 & 3040",
+        "right T1 accessory nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 70957": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron",
+        "wing motor neuron A9 bundle",
+        "right T2 accessory nerve",
+        "posterior soma",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 99920": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L15 bundle",
+        "right soma",
+        "motor neuron",
+        "posterior soma",
+        "right T3 leg nerve"
+    ],
+    "neuron 100695": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L18 bundle",
+        "right soma",
+        "motor neuron",
+        "right T3 leg nerve"
+    ],
+    "neuron 74908": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN1 bundle",
+        "wing motor neuron",
+        "left soma",
+        "left anterior dorsal mesothoracic nerve",
+        "motor neuron"
+    ],
+    "neuron 96576": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "motor neuron",
+        "left T3 leg nerve",
+        "left soma"
+    ],
+    "T1 leg motor neuron L1#05 (neuron 16802)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 12262 & 16802",
+        "right T1 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 28370": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L6 bundle",
+        "right ventral-2 branch of T2 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1#16 (neuron 9709)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9709 & 12964",
+        "left T1 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 106078": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "left T3 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 99449": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L15 bundle",
+        "motor neuron",
+        "right T3 leg nerve",
+        "posterior soma",
+        "right soma"
+    ],
+    "Neuron 78932": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L9 bundle",
+        "left soma",
+        "motor neuron",
+        "left dorsal-3 branch of T2 leg nerve"
+    ],
+    "T1 leg motor neuron L1#10 (neuron 12425)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 8992 & 12425",
+        "right T1 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 83843": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "left T3 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 74442": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron A6 bundle",
+        "left T2 accessory nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 28319": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron",
+        "wing motor neuron A8 bundle",
+        "right T2 accessory nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 70016": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron PDMN1 bundle",
+        "wing motor neuron",
+        "contains presynapses",
+        "left posterior dorsal mesothoracic nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "tergotrochanteral motor neuron_left": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron PDMN bundle",
+        "left posterior dorsal mesothoracic nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 98757": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L16 bundle",
+        "motor neuron",
+        "right T3 leg nerve",
+        "right soma"
+    ],
+    "T1 leg motor neuron L1#16 (neuron 12964)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9709 & 12964",
+        "right T1 leg nerve",
+        "possible 22a08",
+        "leaves through damage",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 117652": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "haltere motor neuron",
+        "right first abdominal nerve",
+        "haltere motor neuron T3 H1 bundle",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 100732": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L15 bundle",
+        "right T3 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 69648": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1#20 (neuron 12708)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "left-right homologs 492 & 12708",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "right T1 leg nerve",
+        "right soma",
+        "leaves through damage",
+        "motor neuron"
+    ],
+    "neuron 74453": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron A6 bundle",
+        "left T2 accessory nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 104165": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "posterior soma",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L15 bundle",
+        "left soma",
+        "left T3 leg nerve",
+        "motor neuron"
+    ],
+    "neuron 15213": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron PDMN1 bundle",
+        "wing motor neuron",
+        "right posterior dorsal mesothoracic nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 75010": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN2 bundle",
+        "wing motor neuron",
+        "possible left-right homologs 75010 & 71200",
+        "left soma",
+        "left anterior dorsal mesothoracic nerve",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L3#01 (neuron 12257)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "second NBLAST hit for 21G01-LexA",
+        "left-right homologs 12257 & 11339",
+        "T1 leg motor neuron L3 bundle",
+        "T1 leg motor neuron",
+        "left T1 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 11608": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron PDMN1 bundle",
+        "wing motor neuron",
+        "contains presynapses",
+        "right posterior dorsal mesothoracic nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "T1 leg motor neuron L1#17 (neuron 9746)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "third NBLAST hit for 35C09-Gal4",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9746 & 16765",
+        "left T1 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 107222": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "haltere motor neuron",
+        "left first abdominal nerve",
+        "haltere motor neuron T3 H1 bundle",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron V5#01 (neuron 11797)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron V5 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 11797 & 11682",
+        "left T1 ventral nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron A1#04 (neuron 11715)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "left-right homologs 9935 & 11715",
+        "T1 leg motor neuron A1 bundle",
+        "T1 leg motor neuron",
+        "right T1 accessory nerve",
+        "motor neuron",
+        "posterior soma",
+        "right soma"
+    ],
+    "neuron 71265": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L8 bundle",
+        "left dorsal-5 branch of T2 leg nerve",
+        "posterior soma",
+        "motor neuron",
+        "left soma"
+    ],
+    "neuron 116680": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "haltere motor neuron",
+        "left first abdominal nerve",
+        "haltere motor neuron T3 H1 bundle",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 74947": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN1 bundle",
+        "wing motor neuron",
+        "left soma",
+        "left anterior dorsal mesothoracic nerve",
+        "motor neuron"
+    ],
+    "neuron 71343": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron",
+        "wing motor neuron A9 bundle",
+        "left T2 accessory nerve",
+        "left soma",
+        "posterior soma",
+        "motor neuron"
+    ],
+    "neuron 107314": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "left soma",
+        "left T3 leg nerve",
+        "motor neuron"
+    ],
+    "neuron 74869": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN3 bundle",
+        "wing motor neuron",
+        "nerve deduced by homology",
+        "left-right homologs 74869 & 11052",
+        "left anterior dorsal mesothoracic nerve",
+        "motor neuron",
+        "left soma"
+    ],
+    "T1 leg motor neuron L1#02 (neuron 464)": [
+        "second NBLAST hit for 22A08-Gal4",
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "second NBLAST hit for 81A07-Gal4",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 464 & 3823",
+        "motor neuron",
+        "left T1 leg nerve",
+        "left soma"
+    ],
+    "T1 leg motor neuron V1#01 (neuron 10377)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron V1 bundle",
+        "left-right homologs 10377 & 3808",
+        "T1 leg motor neuron",
+        "left T1 ventral nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron A1#01 (neuron 9862)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron A1 bundle",
+        "T1 leg motor neuron",
+        "left T1 accessory nerve",
+        "posterior soma",
+        "motor neuron",
+        "left soma",
+        "left-right homologs 9862 & 11597"
+    ],
+    "neuron 99367": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "right T3 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 118468": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron tbd bundle",
+        "T3 leg motor neuron",
+        "motor neuron",
+        "left soma",
+        "left T3 leg nerve"
+    ],
+    "neuron 70088": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "right T2 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 2232": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "neck motor neuron",
+        "neck motor neuron D bundle",
+        "right T1 dorsal nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1#04 (neuron 48239)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 10414 & 48239",
+        "right T1 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L2#02 (neuron 484)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "left-right homologs 484 & 10781",
+        "T1 leg motor neuron L2 bundle",
+        "T1 leg motor neuron",
+        "left T1 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1#01 (neuron 2714)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "top NBLAST hit for 81A07-Gal4",
+        "T1 leg motor neuron L1 bundle",
+        "motor neuron",
+        "T1 leg motor neuron",
+        "left-right homologs 2714 & 6718",
+        "left soma",
+        "left T1 leg nerve"
+    ],
+    "T1 leg motor neuron L1#03 (neuron 10393)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 10393 & 12767",
+        "left T1 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 105095": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "left soma",
+        "left T3 leg nerve",
+        "motor neuron"
+    ],
+    "neuron 96590": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "motor neuron",
+        "left T3 leg nerve",
+        "left soma"
+    ],
+    "neuron 70281": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L7 bundle",
+        "right T2 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 69816": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L6 bundle",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 93106": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "right soma",
+        "motor neuron",
+        "right T3 leg nerve"
+    ],
+    "T1 leg motor neuron A3#01 (neuron 10841)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron A3 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9755 & 10841",
+        "right T1 accessory nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 76868": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "right T2 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 71238": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN2 bundle",
+        "wing motor neuron",
+        "possible left-right homologs 75014 & 71238",
+        "right anterior dorsal mesothoracic nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 18351": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "right T2 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 100630": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "motor neuron",
+        "right T3 leg nerve",
+        "right soma"
+    ],
+    "neuron 18415": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "right T2 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 42066": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L7 bundle",
+        "left T2 leg nerve",
+        "motor neuron",
+        "left soma"
+    ],
+    "neuron 189571": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "left soma",
+        "haltere motor neuron HN bundle",
+        "haltere motor neuron",
+        "motor neuron",
+        "left haltere nerve"
+    ],
+    "neuron 18599": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "right T2 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 42004": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN1 bundle",
+        "wing motor neuron",
+        "left soma",
+        "left anterior dorsal mesothoracic nerve",
+        "motor neuron"
+    ],
+    "neuron 70133": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "right T2 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 70693": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron A6 bundle",
+        "right T2 accessory nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L5#01 (neuron 11468)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L5 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9029 & 11468",
+        "right T1 leg nerve",
+        "posterior soma",
+        "leaves through damage",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 73214": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L7 bundle",
+        "right ventral-3 branch of T2 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1#02 (neuron 3823)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "motor neuron",
+        "leaves through damage",
+        "right soma",
+        "left-right homologs 464 & 3823",
+        "right T1 leg nerve",
+        "possible 22a08"
+    ],
+    "neuron 89401": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "motor neuron",
+        "right T3 leg nerve",
+        "right soma"
+    ],
+    "T1 leg motor neuron A3#02 (neuron 9878)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron A3 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9878 & 2220",
+        "left T1 accessory nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 42096": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "left T2 leg nerve",
+        "motor neuron",
+        "left soma"
+    ],
+    "neuron 72941": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron PDMN1 bundle",
+        "wing motor neuron",
+        "contains presynapses",
+        "right posterior dorsal mesothoracic nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "T1 leg motor neuron L1#14 (neuron 9630)": [
+        "second NBLAST hit for 35C09-Gal4",
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9630 & 11213",
+        "left T1 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 18026": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L6 bundle",
+        "right T2 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 104107": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "posterior soma",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L15 bundle",
+        "left T3 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L3#04 (neuron 9025)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L3 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9025 & 3838",
+        "left T1 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 117677": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "haltere motor neuron",
+        "right first abdominal nerve",
+        "haltere motor neuron T3 H1 bundle",
+        "right soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron D1#01 (neuron 13031)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron D1 bundle",
+        "left-right homologs 13031 & 2236",
+        "T1 leg motor neuron",
+        "left T1 dorsal nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 193447": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "right soma",
+        "haltere motor neuron HN bundle",
+        "haltere motor neuron",
+        "left-right homologs 189382 & 193447",
+        "right haltere nerve",
+        "motor neuron"
+    ],
+    "neuron 117671": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "haltere motor neuron",
+        "right first abdominal nerve",
+        "haltere motor neuron T3 H1 bundle",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 70245": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 107038": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "haltere motor neuron",
+        "left first abdominal nerve",
+        "haltere motor neuron T3 H1 bundle",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 104949": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "haltere motor neuron",
+        "haltere motor neuron T3 H1 bundle",
+        "left T3 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron V2#01 (neuron 6654)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron V2 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 11787 & 6654",
+        "right T1 ventral nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 13019": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "neck motor neuron",
+        "neck motor neuron D bundle",
+        "left T1 dorsal nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 28391": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron A6 bundle",
+        "right T2 accessory nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 73199": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L7 bundle",
+        "right ventral-3 branch of T2 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 106127": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L16 bundle",
+        "left soma",
+        "left T3 leg nerve",
+        "motor neuron"
+    ],
+    "neuron 18455": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron",
+        "wing motor neuron A9 bundle",
+        "left T2 accessory nerve",
+        "posterior soma",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 13013": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "neck motor neuron",
+        "neck motor neuron D bundle",
+        "left T1 dorsal nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 103840": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "left T3 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 74303": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron D2#02 (neuron 11380)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron D2 bundle",
+        "left-right homologs 16857 & 11380",
+        "T1 leg motor neuron",
+        "right T1 dorsal nerve",
+        "leaves through damage",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 74336": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L13 bundle",
+        "left-right homologs 74336 & 73083",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 73036": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L6 bundle",
+        "right T2 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 106152": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "left T3 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron A4#01 (neuron 9797)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron A4 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9797 & 3040",
+        "left T1 accessory nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 88809": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "right T3 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron D2#01 (neuron 11403)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron D2 bundle",
+        "left-right homologs 13025 & 11403",
+        "T1 leg motor neuron",
+        "right T1 dorsal nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 42083": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "left soma",
+        "left T2 leg nerve",
+        "motor neuron"
+    ],
+    "neuron 104976": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "posterior soma",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L15 bundle",
+        "left T3 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 112576": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "haltere motor neuron",
+        "left first abdominal nerve",
+        "haltere motor neuron T3 H2 bundle",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1#03 (neuron 12767)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 10393 & 12767",
+        "right T1 leg nerve",
+        "leaves through damage",
+        "right soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L3#04 (neuron 3838)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L3 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9025 & 3838",
+        "right T1 leg nerve",
+        "possible 22a08",
+        "right soma",
+        "leaves through damage",
+        "motor neuron"
+    ],
+    "neuron 100683": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "right T3 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 76008": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "neck motor neuron",
+        "neck motor neuron C1 bundle",
+        "right cervical nerve",
+        "motor neuron",
+        "left soma"
+    ],
+    "neuron 69854": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L6 bundle",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 103969": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "left T3 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L2 bundle (neuron 21244)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L2 bundle",
+        "T1 leg motor neuron",
+        "motor neuron",
+        "left soma",
+        "left T1 leg nerve"
+    ],
+    "neuron 69612": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1#18 (neuron 16223)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "left-right homologs 10424 & 16223",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "right T1 leg nerve",
+        "leaves through damage",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 42923": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN1 bundle",
+        "wing motor neuron",
+        "left soma",
+        "left anterior dorsal mesothoracic nerve",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1 bundle (neuron 9191)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9191 & 12803",
+        "left T1 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L2#03 (neuron 10971)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "left-right homologs 488 & 10971",
+        "T1 leg motor neuron L2 bundle",
+        "right soma",
+        "T1 leg motor neuron",
+        "motor neuron",
+        "right T1 leg nerve",
+        "leaves through damage"
+    ],
+    "neuron 70194": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "right T2 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 3803": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "neck motor neuron",
+        "neck motor neuron D bundle",
+        "right T1 dorsal nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 89954": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "left soma",
+        "left T3 leg nerve",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1#20 (neuron 492)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "top NBLAST hit for 56H01-LexA",
+        "left-right homologs 492 & 12708",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left T1 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 18206": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L7 bundle",
+        "right soma",
+        "right T2 leg nerve",
+        "motor neuron"
+    ],
+    "neuron 107132": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "left soma",
+        "motor neuron",
+        "left T3 leg nerve"
+    ],
+    "T1 leg motor neuron L1 bundle (neuron 9187)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9187 & 11934",
+        "left T1 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 106004": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "left T3 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 42032": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "left T2 leg nerve",
+        "motor neuron",
+        "left soma"
+    ],
+    "T1 leg motor neuron A1#03 (neuron 11413)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron A1 bundle",
+        "left-right homologs 9929 & 11413",
+        "T1 leg motor neuron",
+        "right T1 accessory nerve",
+        "posterior soma",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 13958": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "neck motor neuron",
+        "neck motor neuron C1 bundle",
+        "motor neuron",
+        "left cervical nerve",
+        "right soma"
+    ],
+    "neuron 18401": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "right T2 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "T1 leg motor neuron A1#01 (neuron 11597)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron A1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9862 & 11597",
+        "right T1 accessory nerve",
+        "motor neuron",
+        "leaves through damage",
+        "posterior soma",
+        "right soma"
+    ],
+    "neuron 102694": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "right T3 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 99170": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "right T3 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "T1 leg motor neuron V1#03 (neuron 11817)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron V1 bundle",
+        "left-right homologs 11817 & 8565",
+        "T1 leg motor neuron",
+        "left T1 ventral nerve",
+        "motor neuron",
+        "left soma"
+    ],
+    "neuron 118268": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron A11 bundle",
+        "right first abdominal nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "T1 leg motor neuron L1 bundle (neuron 12736)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "right T1 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "T1 leg motor neuron L1#06 (neuron 468)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 468 & 15680",
+        "left T1 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 74431": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L7 bundle",
+        "left ventral-3 branch of T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L5#01 (neuron 9029)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "left soma",
+        "posterior soma",
+        "motor neuron",
+        "T1 leg motor neuron L5 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9029 & 11468",
+        "left T1 leg nerve"
+    ],
+    "neuron 93769": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L18 bundle",
+        "left T3 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron A4#02 (neuron 10986)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron A4 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9867 & 10986",
+        "right T1 accessory nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 70177": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "right T2 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 73083": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L13 bundle",
+        "left-right homologs 74336 & 73083",
+        "right T2 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 13170": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "neck motor neuron",
+        "neck motor neuron D bundle",
+        "motor neuron",
+        "left soma",
+        "left T1 dorsal nerve"
+    ],
+    "neuron 70734": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron V1#02 (neuron 11011)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron V1 bundle",
+        "left-right homologs 11802 & 11011",
+        "T1 leg motor neuron",
+        "right T1 ventral nerve",
+        "leaves through damage",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 18590": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "right T2 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "T1 leg motor neuron L1#04 (neuron 10414)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 10414 & 48239",
+        "left T1 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L2#01 (neuron 480)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L2 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 480 & 11285",
+        "left T1 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron V2#01 (neuron 11787)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron V2 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 11787 & 6654",
+        "left T1 ventral nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 102806": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "right T3 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 18378": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "right T2 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 105362": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L18 bundle",
+        "left soma",
+        "left T3 leg nerve",
+        "motor neuron"
+    ],
+    "neuron 99680": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L15 bundle",
+        "motor neuron",
+        "posterior soma",
+        "right soma",
+        "right T3 leg nerve"
+    ],
+    "neuron 70436": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L6 bundle",
+        "right T2 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 74729": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN1 bundle",
+        "wing motor neuron",
+        "left soma",
+        "left anterior dorsal mesothoracic nerve",
+        "motor neuron"
+    ],
+    "neuron 18623": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "right T2 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 48216": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN1 bundle",
+        "wing motor neuron",
+        "right anterior dorsal mesothoracic nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1 bundle (neuron 8996)": [
+        "top NBLAST hit for 22A08-Gal4",
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "second NBLAST hit for 56H01-LexA",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left T1 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 18202": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L9 bundle",
+        "right dorsal-3 branch of T2 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 72878": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron PDMN1 bundle",
+        "wing motor neuron",
+        "left posterior dorsal mesothoracic nerve",
+        "motor neuron",
+        "left soma"
+    ],
+    "neuron 10680": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "neck motor neuron",
+        "neck motor neuron D bundle",
+        "left T1 dorsal nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 107097": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron A11 bundle",
+        "left first abdominal nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron A3#03 (neuron 9888)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron A3 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9888 & 2216",
+        "left T1 accessory nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 18369": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "right T2 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 65755": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "left T2 leg nerve",
+        "motor neuron",
+        "left soma"
+    ],
+    "T1 leg motor neuron L1#19 (neuron 16218)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "left-right homologs 16811 & 16218",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "right T1 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 93095": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron tbd bundle",
+        "T3 leg motor neuron",
+        "right soma",
+        "right T3 leg nerve",
+        "motor neuron"
+    ],
+    "neuron 47532": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN1 bundle",
+        "wing motor neuron",
+        "right anterior dorsal mesothoracic nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 74288": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 96535": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "motor neuron",
+        "left T3 leg nerve",
+        "left soma"
+    ],
+    "T1 leg motor neuron L1 bundle (neuron 9009)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "neuron",
+        "motor neuron",
+        "bilateral",
+        "left-right homologs 9009 & 11182",
+        "left T1 leg nerve",
+        "left soma"
+    ],
+    "neuron 99698": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "motor neuron",
+        "right soma",
+        "right T3 leg nerve"
+    ],
+    "T1 leg motor neuron L2 bundle (neuron 21338)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L2 bundle",
+        "motor neuron",
+        "left soma",
+        "T1 leg motor neuron",
+        "left T1 leg nerve"
+    ],
+    "neuron 11127": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "neck motor neuron",
+        "neck motor neuron D bundle",
+        "right T1 dorsal nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 13951": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "neck motor neuron",
+        "neck motor neuron C1 bundle",
+        "motor neuron",
+        "left cervical nerve",
+        "right soma"
+    ],
+    "T1 leg motor neuron L1#19 (neuron 16811)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "left-right homologs 16811 & 16218",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left T1 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron V3 bundle (neuron 10367)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron V3 bundle",
+        "T1 leg motor neuron",
+        "left soma",
+        "motor neuron",
+        "left T1 ventral nerve"
+    ],
+    "neuron 96572": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "right soma",
+        "motor neuron",
+        "right T3 leg nerve"
+    ],
+    "neuron 47577": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN1 bundle",
+        "wing motor neuron",
+        "right anterior dorsal mesothoracic nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 48230": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN1 bundle",
+        "wing motor neuron",
+        "right anterior dorsal mesothoracic nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 118377": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "haltere motor neuron",
+        "right first abdominal nerve",
+        "haltere motor neuron T3 H1 bundle",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 18342": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "right T2 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 74257": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 69726": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L6 bundle",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 70926": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L8 bundle",
+        "left dorsal-5 branch of T2 leg nerve",
+        "posterior soma",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1 bundle (neuron 11043)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "right T1 leg nerve",
+        "leaves through damage",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 96449": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "motor neuron",
+        "left T3 leg nerve",
+        "left soma"
+    ],
+    "neuron 70776": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L6 bundle",
+        "left ventral-2 branch of T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron D2#02 (neuron 16857)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron",
+        "T1 leg motor neuron D2 bundle",
+        "left-right homologs 16857 & 11380",
+        "left soma",
+        "motor neuron",
+        "left T1 dorsal nerve"
+    ],
+    "neuron 71388": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron",
+        "wing motor neuron A9 bundle",
+        "motor neuron",
+        "posterior soma",
+        "left soma",
+        "left T2 accessory nerve"
+    ],
+    "neuron 14949": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron PDMN1 bundle",
+        "wing motor neuron",
+        "right posterior dorsal mesothoracic nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 70636": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L10 bundle",
+        "motor neuron",
+        "left-right homologs 70636 & 73112",
+        "left soma",
+        "neuron",
+        "left dorsal-5 branch of T2 leg nerve"
+    ],
+    "neuron 18544": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "right T2 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 116668": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron A12 bundle",
+        "left first abdominal nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 70166": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "right T2 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1 bundle (neuron 11934)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9187 & 11934",
+        "right T1 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 70329": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L7 bundle",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 70972": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron",
+        "wing motor neuron A9 bundle",
+        "right T2 accessory nerve",
+        "posterior soma",
+        "right soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L3#05 (neuron 9171)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "top NBLAST hit for 21G01-LexA",
+        "T1 leg motor neuron L3 bundle",
+        "left-right homologs 9171 & 3833",
+        "T1 leg motor neuron",
+        "left T1 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 70790": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "right T2 leg nerve",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L8 bundle",
+        "right dorsal-5 branch of T2 leg nerve",
+        "motor neuron",
+        "right soma",
+        "posterior soma"
+    ],
+    "neuron 70864": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN1 bundle",
+        "wing motor neuron",
+        "motor neuron",
+        "right anterior dorsal mesothoracic nerve",
+        "right soma"
+    ],
+    "neuron 42315": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 70316": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L11 bundle",
+        "posterior soma",
+        "left-right homologs 70277 & 70316",
+        "right T2 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 18450": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron",
+        "wing motor neuron A8 bundle",
+        "left T2 accessory nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L3#02 (neuron 581)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L3 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 581 & 11172",
+        "left T1 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 15511": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "neck motor neuron",
+        "neck motor neuron D bundle",
+        "left T1 dorsal nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 71347": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 74834": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN1 bundle",
+        "wing motor neuron",
+        "left soma",
+        "left anterior dorsal mesothoracic nerve",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron V1#02 (neuron 11802)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron V1 bundle",
+        "left-right homologs 11802 & 11011",
+        "T1 leg motor neuron",
+        "left T1 ventral nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 18191": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "right T2 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 70809": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L6 bundle",
+        "motor neuron",
+        "left soma",
+        "left ventral-2 branch of T2 leg nerve"
+    ],
+    "T1 leg motor neuron V5#01 (neuron 11682)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron V5 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 11797 & 11682",
+        "right T1 ventral nerve",
+        "motor neuron",
+        "leaves through damage",
+        "right soma"
+    ],
+    "neuron 74700": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN1 bundle",
+        "wing motor neuron",
+        "left soma",
+        "left anterior dorsal mesothoracic nerve",
+        "motor neuron"
+    ],
+    "neuron 105214": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L18 bundle",
+        "left T3 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1 bundle (neuron 11299)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "right T1 leg nerve",
+        "possible 22a08",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 105045": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "left soma",
+        "left T3 leg nerve",
+        "motor neuron"
+    ],
+    "neuron 42075": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "Neuron 113858": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron tbd bundle",
+        "T3 leg motor neuron",
+        "right soma",
+        "right T3 leg nerve",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1#08 (neuron 2180)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 476 & 2180",
+        "right T1 leg nerve",
+        "right soma",
+        "leaves through damage",
+        "motor neuron"
+    ],
+    "neuron 74788": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN1 bundle",
+        "wing motor neuron",
+        "left soma",
+        "left anterior dorsal mesothoracic nerve",
+        "motor neuron"
+    ],
+    "neuron 102852": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "right T3 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 117640": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron A11 bundle",
+        "right first abdominal nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 69661": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "left T2 leg nerve",
+        "motor neuron",
+        "left soma"
+    ],
+    "neuron 98767": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "right T3 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 70771": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN1 bundle",
+        "wing motor neuron",
+        "right anterior dorsal mesothoracic nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 71132": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 99979": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "motor neuron",
+        "right T3 leg nerve",
+        "right soma"
+    ],
+    "neuron 15084": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron PDMN2 bundle",
+        "wing motor neuron",
+        "contains presynapses",
+        "left soma",
+        "motor neuron",
+        "left-right homologs 15084 & 70020",
+        "right posterior dorsal mesothoracic nerve"
+    ],
+    "neuron 107021": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron A11 bundle",
+        "left first abdominal nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 70008": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron PDMN1 bundle",
+        "wing motor neuron",
+        "contains presynapses",
+        "left posterior dorsal mesothoracic nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 106232": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "left T3 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 69599": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1#09 (neuron 12402)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 83815 & 12402",
+        "right T1 leg nerve",
+        "leaves through damage",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 28315": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron",
+        "wing motor neuron A9 bundle",
+        "posterior soma",
+        "right T2 accessory nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1#06 (neuron 15680)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 468 & 15680",
+        "right T1 leg nerve",
+        "possible 22a08",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 189861": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "right soma",
+        "haltere motor neuron HN bundle",
+        "haltere motor neuron",
+        "motor neuron",
+        "right haltere nerve"
+    ],
+    "neuron 3788": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "neck motor neuron",
+        "neck motor neuron D bundle",
+        "right T1 dorsal nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron V3 bundle (neuron 10385)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron V3 bundle",
+        "T1 leg motor neuron",
+        "left T1 ventral nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron V4#02 (neuron 2212)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron V4 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 10223 & 2212",
+        "right T1 ventral nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 118381": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "haltere motor neuron",
+        "right first abdominal nerve",
+        "haltere motor neuron T3 H1 bundle",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 99348": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "motor neuron",
+        "right T3 leg nerve",
+        "right soma"
+    ],
+    "T1 leg motor neuron A3#01 (neuron 9755)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron A3 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9755 & 10841",
+        "left T1 accessory nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 106326": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "left T3 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 69577": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 100780": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "motor neuron",
+        "right T3 leg nerve",
+        "right soma"
+    ],
+    "T1 leg motor neuron D1#02 (neuron 13036)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron D1 bundle",
+        "left-right homologs 13036 & 11320",
+        "T1 leg motor neuron",
+        "left soma",
+        "motor neuron",
+        "left T1 dorsal nerve"
+    ],
+    "neuron 74969": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN1 bundle",
+        "wing motor neuron",
+        "left soma",
+        "left anterior dorsal mesothoracic nerve",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron D1#01 (neuron 2236)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron D1 bundle",
+        "left-right homologs 13031 & 2236",
+        "T1 leg motor neuron",
+        "motor neuron",
+        "right T1 dorsal nerve",
+        "right soma"
+    ],
+    "neuron 89361": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L16 bundle",
+        "right T3 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "T1 leg motor neuron V6#01 (neuron 10372)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron V6 bundle",
+        "left-right homologs 10372 & 10802",
+        "motor neuron",
+        "left soma",
+        "T1 leg motor neuron",
+        "left T1 ventral nerve"
+    ],
+    "neuron 189469": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "left soma",
+        "haltere motor neuron HN bundle",
+        "haltere motor neuron",
+        "left haltere nerve",
+        "motor neuron"
+    ],
+    "neuron 18608": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "right T2 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 106455": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "left T3 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L3#02 (neuron 11172)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L3 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 581 & 11172",
+        "right T1 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 75014": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN2 bundle",
+        "wing motor neuron",
+        "nerve deduced by homology",
+        "left anterior dorsal mesothoracic nerve",
+        "possible left-right homologs 75014 & 71238",
+        "motor neuron",
+        "left soma"
+    ],
+    "neuron 70922": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron",
+        "wing motor neuron A9 bundle",
+        "posterior soma",
+        "right T2 accessory nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 82232": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "left soma",
+        "left T3 leg nerve",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron V4#02 (neuron 10223)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron V4 bundle",
+        "T1 leg motor neuron",
+        "motor neuron",
+        "left soma",
+        "left-right homologs 10223 & 2212",
+        "neuron",
+        "left T1 ventral nerve"
+    ],
+    "neuron 96550": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "motor neuron",
+        "right soma",
+        "right T3 leg nerve"
+    ],
+    "T1 leg motor neuron L1#01 (neuron 6718)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "top NBLAST hit for 81A07-Gal4",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "right soma",
+        "leaves through damage",
+        "motor neuron",
+        "left-right homologs 2714 & 6718",
+        "right T1 leg nerve"
+    ],
+    "neuron 71207": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN1 bundle",
+        "wing motor neuron",
+        "right anterior dorsal mesothoracic nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "T1 leg motor neuron L1 bundle (neuron 12451)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "right T1 leg nerve",
+        "leaves through damage",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 106074": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "left T3 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 70257": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L7 bundle",
+        "right T2 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 3793": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "neck motor neuron",
+        "neck motor neuron D bundle",
+        "right T1 dorsal nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 99843": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "motor neuron",
+        "right T3 leg nerve",
+        "right soma"
+    ],
+    "neuron 103876": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "left soma",
+        "motor neuron",
+        "left T3 leg nerve"
+    ],
+    "neuron 116839": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "haltere motor neuron",
+        "left first abdominal nerve",
+        "haltere motor neuron T3 H1 bundle",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 74241": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 105245": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L18 bundle",
+        "left soma",
+        "left T3 leg nerve",
+        "motor neuron"
+    ],
+    "neuron 112544": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "haltere motor neuron",
+        "left first abdominal nerve",
+        "haltere motor neuron T3 H1 bundle",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1#07 (neuron 16026)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 472 & 16026",
+        "right T1 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1#11 (neuron 12786)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9005 & 12786",
+        "right T1 leg nerve",
+        "leaves through damage",
+        "right soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron A1#02 (neuron 9883)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron A1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9883 & 12239",
+        "left T1 accessory nerve",
+        "posterior soma",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 100078": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "haltere motor neuron",
+        "haltere motor neuron T3 H3 bundle",
+        "right T3 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "T1 leg motor neuron L1#11 (neuron 9005)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron",
+        "T1 leg motor neuron L1 bundle",
+        "left T1 leg nerve",
+        "left-right homologs 9005 & 12786",
+        "motor neuron",
+        "left soma"
+    ],
+    "neuron 100052": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "right T3 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "T1 leg motor neuron V1#03 (neuron 8565)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron V1 bundle",
+        "left-right homologs 11817 & 8565",
+        "T1 leg motor neuron",
+        "right T1 ventral nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1#17 (neuron 16765)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9746 & 16765",
+        "right T1 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 71022": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron",
+        "wing motor neuron A9 bundle",
+        "left T2 accessory nerve",
+        "left soma",
+        "posterior soma",
+        "motor neuron"
+    ],
+    "neuron 104067": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L15 bundle",
+        "posterior soma",
+        "left soma",
+        "left T3 leg nerve",
+        "motor neuron"
+    ],
+    "neuron 80316": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "haltere motor neuron HN bundle",
+        "haltere motor neuron",
+        "right soma",
+        "motor neuron",
+        "right haltere nerve"
+    ],
+    "neuron 105123": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "left soma",
+        "left T3 leg nerve",
+        "motor neuron"
+    ],
+    "neuron 28323": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron",
+        "wing motor neuron A9 bundle",
+        "posterior soma",
+        "right T2 accessory nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 99939": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "motor neuron",
+        "right T3 leg nerve",
+        "right soma"
+    ],
+    "neuron 188442": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "left soma",
+        "T3 leg motor neuron tbd bundle",
+        "T3 leg motor neuron",
+        "motor neuron",
+        "left T3 leg nerve"
+    ],
+    "neuron 11349": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "neck motor neuron",
+        "neck motor neuron D bundle",
+        "left T1 dorsal nerve",
+        "motor neuron",
+        "left soma"
+    ],
+    "T1 leg motor neuron A1#04 (neuron 9935)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "left-right homologs 9935 & 11715",
+        "T1 leg motor neuron A1 bundle",
+        "T1 leg motor neuron",
+        "left soma",
+        "left T1 accessory nerve",
+        "posterior soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1#09 (neuron 83815)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 83815 & 12402",
+        "motor neuron",
+        "left T1 leg nerve",
+        "left soma"
+    ],
+    "T1 leg motor neuron L1 bundle (neuron 12822)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 10407 & 12822",
+        "right T1 leg nerve",
+        "right soma",
+        "leaves through damage",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron V3 bundle (neuron 12267)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron V3 bundle",
+        "neuron",
+        "T1 leg motor neuron",
+        "right T1 ventral nerve",
+        "leaves through damage",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 93976": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "left T3 leg nerve",
+        "motor neuron",
+        "left soma"
+    ],
+    "T1 leg motor neuron L2#04 (neuron 16185)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L2 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9175 & 16185",
+        "right T1 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 18563": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L7 bundle",
+        "right T2 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 105348": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron tbd bundle",
+        "T3 leg motor neuron",
+        "left T3 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 71308": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L8 bundle",
+        "left dorsal-5 branch of T2 leg nerve",
+        "posterior soma",
+        "motor neuron",
+        "left soma"
+    ],
+    "neuron 99517": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "motor neuron",
+        "right T3 leg nerve",
+        "right soma"
+    ],
+    "neuron 70424": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L7 bundle",
+        "right T2 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 99867": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "motor neuron",
+        "right T3 leg nerve",
+        "right soma"
+    ],
+    "T1 leg motor neuron L1 bundle (neuron 10407)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 10407 & 12822",
+        "left T1 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 93949": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "motor neuron",
+        "left T3 leg nerve",
+        "left soma"
+    ],
+    "neuron 116735": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "left T3 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron V4#01 (neuron 10796)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron V4 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 10208 & 10796",
+        "right T1 ventral nerve",
+        "leaves through damage",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 15517": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "neck motor neuron",
+        "neck motor neuron D bundle",
+        "left T1 dorsal nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "Neuron 21087": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "neck motor neuron",
+        "neck motor neuron D bundle",
+        "right T1 dorsal nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 14940": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron PDMN1 bundle",
+        "wing motor neuron",
+        "right posterior dorsal mesothoracic nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 105286": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron tbd bundle",
+        "T3 leg motor neuron",
+        "left soma",
+        "left T3 leg nerve",
+        "motor neuron"
+    ],
+    "neuron 118434": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron A12 bundle",
+        "right first abdominal nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 99902": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "right T3 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 100032": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L18 bundle",
+        "motor neuron",
+        "right T3 leg nerve",
+        "right soma"
+    ],
+    "T1 leg motor neuron A2#01 (neuron 10299)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron A2 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 10299 & 11944",
+        "left T1 accessory nerve",
+        "posterior soma",
+        "motor neuron",
+        "left soma"
+    ],
+    "neuron 99206": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L18 bundle",
+        "right T3 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1#12 (neuron 16770)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9207 & 16770",
+        "right T1 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 100558": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "right T3 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 107217": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "left soma",
+        "left T3 leg nerve",
+        "motor neuron"
+    ],
+    "neuron 42297": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "left T2 leg nerve",
+        "motor neuron",
+        "left soma"
+    ],
+    "neuron 18392": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "right T2 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "T1 leg motor neuron A2#02 (neuron 9899)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron A2 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9899 & 12275",
+        "left T1 accessory nerve",
+        "motor neuron",
+        "posterior soma",
+        "left soma"
+    ],
+    "neuron 18424": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "right T2 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 70228": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "right T2 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1 bundle (neuron 9211)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "second NBLAST hit for 33C10-LexA, after excluding D bundles",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left T1 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 72970": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron",
+        "wing motor neuron A8 bundle",
+        "left T2 accessory nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "Neuron 98656": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L1 bundle",
+        "right T3 leg nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "T1 leg motor neuron L3#05 (neuron 3833)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L3 bundle",
+        "left-right homologs 9171 & 3833",
+        "T1 leg motor neuron",
+        "right T1 leg nerve",
+        "right soma",
+        "motor neuron",
+        "leaves through damage"
+    ],
+    "neuron 69624": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1 bundle (neuron 11062)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9552 & 11062",
+        "right T1 leg nerve",
+        "possible 22a08",
+        "motor neuron",
+        "right soma"
+    ],
+    "neuron 74845": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron PDMN1 bundle",
+        "wing motor neuron",
+        "left posterior dorsal mesothoracic nerve",
+        "motor neuron",
+        "left soma"
+    ],
+    "T1 leg motor neuron A1#02 (neuron 12239)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron A1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9883 & 12239",
+        "right T1 accessory nerve",
+        "motor neuron",
+        "posterior soma",
+        "right soma"
+    ],
+    "T1 leg motor neuron L2#01 (neuron 11285)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L2 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 480 & 11285",
+        "right T1 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron V1#01 (neuron 3808)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron V1 bundle",
+        "left-right homologs 10377 & 3808",
+        "T1 leg motor neuron",
+        "right T1 ventral nerve",
+        "right soma",
+        "leaves through damage",
+        "motor neuron"
+    ],
+    "neuron 76648": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron A7 bundle",
+        "posterior soma",
+        "left T2 accessory nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 28334": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron",
+        "wing motor neuron A8 bundle",
+        "right T2 accessory nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 11616": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron PDMN1 bundle",
+        "wing motor neuron",
+        "contains presynapses",
+        "right posterior dorsal mesothoracic nerve",
+        "motor neuron",
+        "right soma"
+    ],
+    "T1 leg motor neuron L1 bundle (neuron 9552)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "motor neuron",
+        "left-right homologs 9552 & 11062",
+        "left T1 leg nerve",
+        "left soma"
+    ],
+    "neuron 74934": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN1 bundle",
+        "wing motor neuron",
+        "left soma",
+        "left anterior dorsal mesothoracic nerve",
+        "motor neuron"
+    ],
+    "neuron 104008": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "haltere motor neuron",
+        "haltere motor neuron T3 H1 bundle",
+        "left soma",
+        "left T3 leg nerve",
+        "motor neuron"
+    ],
+    "T1 leg motor neuron L1#13 (neuron 9557)": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T1 leg motor neuron L1 bundle",
+        "T1 leg motor neuron",
+        "left-right homologs 9557 & 10768",
+        "left T1 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 99961": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L14 bundle",
+        "motor neuron",
+        "right T3 leg nerve",
+        "right soma"
+    ],
+    "neuron 96568": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "posterior soma",
+        "T3 leg motor neuron",
+        "T3 leg motor neuron L15 bundle",
+        "left T3 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "tergotrochanteral motor neuron_right": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron PDMN bundle",
+        "right posterior dorsal mesothoracic nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 69568": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L7 bundle",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 11052": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "wing motor neuron ADMN3 bundle",
+        "wing motor neuron",
+        "left-right homologs 74869 & 11052",
+        "right anterior dorsal mesothoracic nerve",
+        "motor neuron",
+        "right soma",
+        "ascending neuron"
+    ],
+    "neuron 69673": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 73054": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L6 bundle",
+        "right T2 leg nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 70534": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron PDMN bundle",
+        "right posterior dorsal mesothoracic nerve",
+        "right soma",
+        "motor neuron"
+    ],
+    "neuron 73045": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron PDMN bundle",
+        "motor neuron",
+        "left posterior dorsal mesothoracic nerve",
+        "left soma"
+    ],
+    "neuron 65763": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "T2 leg motor neuron",
+        "T2 leg motor neuron L1 bundle",
+        "left T2 leg nerve",
+        "left soma",
+        "motor neuron"
+    ],
+    "neuron 3006": [
+        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "neck motor neuron",
+        "neck motor neuron D bundle",
+        "right T1 dorsal nerve",
+        "right soma",
+        "motor neuron"
+    ]
+}

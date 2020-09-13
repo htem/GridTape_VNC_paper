@@ -1,0 +1,1 @@
+../../../catmaidViews/template/leftT1_for_bCS_branch_near_MNs.js
