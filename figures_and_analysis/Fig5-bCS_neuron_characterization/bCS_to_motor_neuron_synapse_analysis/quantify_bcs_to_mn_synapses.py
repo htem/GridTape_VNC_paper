@@ -354,7 +354,7 @@ def count_T1bCS_to_lT1mn_synapses(side='both', prune_bcs_to_fragments=True, mn_s
     if verbose:
         s = ('Connectivity matrix - values are the number of synaptic'
              ' connections from one bCS neuron (column label) to one motor'
-             ' neuron (row label). Labels are CATMAID skeleton IDs:')
+             ' neuron (row label). Labels are neuron names on CATMAID:')
         print(s)
         print(connectivity)
     return connectivity
@@ -836,7 +836,10 @@ def plot_mn_diameter_vs_bcs_synapse_count(side='both', c='bundles', x_units='are
     print('Motor neuron axon areas (square microns):', areas)
 
 
-    skid_to_bundle = bundles.get_bundle_from_skid(list(areas.keys()))
+    skid_to_bundle = bundles.get_bundle_from_skid(
+        list(areas.keys()),
+        project=pymaid_utils.source_project
+    )
 
     x = []
     y = []
@@ -921,7 +924,7 @@ def plot_mn_morphological_characteristics_vs_bcs_synapse_counts(regress=True):
 
     skid_to_bundle = bundles.get_bundle_from_skid(
         list(areas.index),
-        project_id=pymaid_utils.source_project.project_id
+        project=pymaid_utils.source_project
     )
     skid_to_bundle = pd.Series(skid_to_bundle)
     skid_to_bundle.index = [str(i) for i in skid_to_bundle.index]
@@ -1472,7 +1475,7 @@ def main():
         print('')
         count_postsynaptic_motor_central_orphan()
         print('')
-        count_T1bCS_to_lT1mn_synapses(verbose=True)
+        count_T1bCS_to_lT1mn_synapses(key_type='name', verbose=True)
         print('')
 
     if force_yes or prompt('Want to see how many times bCS neurons synapse onto their postsynaptic targets?'):
@@ -1490,7 +1493,7 @@ def main():
 
     #if force_yes or prompt('Want to compare motor neuron axon thickness vs number of inputs from bCS?'):
         #plot_mn_diameter_vs_bcs_synapse_count(side='both', c='bundles', x_units='area')
-    if force_yes or prompt('Want to compare motor neuron morphological characteristics to  number of inputs from bCS?'):
+    if force_yes or prompt('Want to compare motor neuron morphological characteristics to number of inputs from bCS?'):
         plot_mn_morphological_characteristics_vs_bcs_synapse_counts(regress=True)
 
     #if force_yes or prompt('Want to look at bCS inputs to 81A07 and 35C09 hits?'):

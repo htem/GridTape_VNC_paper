@@ -132,30 +132,33 @@ def make_bundles_legend(nerve=None, prefix='', show_counts=True, save_format=Non
     plt.show()
 
 
-def get_bundle_from_skid(skids, form='short', project_id=None):
+def get_bundle_from_skid(skids, form='short', project=None, **kwargs):
     """
     Given a skeleton ID or list of skeleton IDs, return a dict with the
     skeleton IDs as keys and their bundle string as values
     """
-    default_catmaid_project_id = 59
     import pymaid
-    import pymaid_utils as pu
-    temp_pid = pu.source_project.project_id
-    if project_id is None:
-        project_id = default_catmaid_project_id
-        print(f'Defaulting to using project id {project_id}')
-    else:
-        project_id = int(project_id)
-    if pu.source_project.project_id != project_id:
-        pu.set_source_project_id(int(project_id))
-    annots = pymaid.get_annotations(skids, remote_instance=pu.source_project)
+    default_catmaid_project_id = 59
+    temp_pid = None
+    if project is None:
+        project = kwargs.get('project_id', default_catmaid_project_id)
+        print(f'Defaulting to using project id {project}')
+    if isinstance(project, str):
+        project = int(project)
+    if isinstance(project, int):
+        import pymaid_utils as pu
+        temp_pid = pu.source_project.project_id
+        if pu.source_project.project_id != project:
+            pu.set_source_project_id(project_id)
+        project = pu.source_project
+    annots = pymaid.get_annotations(skids, remote_instance=project)
     bundles = {int(skid): get_bundle_from_annots(annots[skid], form=form)
                for skid in annots}
     if len(bundles) != len(skids):
         print('WARNING: Some skids returned no results:',
               [skid for skid in skids if skid not in bundles])
 
-    if pu.source_project.project_id != temp_pid:
+    if temp_pid is not None and pu.source_project.project_id != temp_pid:
         pu.set_source_project_id(temp_pid)
 
     return bundles
