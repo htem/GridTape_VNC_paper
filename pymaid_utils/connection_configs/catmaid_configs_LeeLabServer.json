@@ -3,11 +3,11 @@
         "GridTape_VNC_paper_viewer": "15ac7f926d46c3971d9d96cb46e3f6c19cad1863"
     },
 
-    "source_catmaid_url": "https://catmaid3.hms.harvard.edu/catmaidvnc",
+    "source_catmaid_url": "https://radagast.hms.harvard.edu/catmaidvnc",
     "source_catmaid_account_to_use": "GridTape_VNC_paper_viewer",
     "source_project_id": 2,
 
-    "target_catmaid_url": "https://catmaid3.hms.harvard.edu/catmaidvnc",
+    "target_catmaid_url": "https://radagast.hms.harvard.edu/catmaidvnc",
     "target_catmaid_account_to_use": "GridTape_VNC_paper_viewer",
     "target_project_id": 59
 }
