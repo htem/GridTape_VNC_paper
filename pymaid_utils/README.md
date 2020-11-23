@@ -1,4 +1,7 @@
 ## pymaid_utils
+
+THIS PACKAGE IS INCLUDED IN THIS REPOSITORY FOR POSTERITY, BUT CONTINUED DEVELOPMENT OF HAS BEEN MOVED TO [A SEPARATE REPOSITORY AND RENAMED PYMAID_ADDONS](https://github.com/htem/pymaid_addons). Check that repository for the latest code.
+
 This package contains 3 modules:
 
 #### `connections.py`
