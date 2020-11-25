@@ -1,6 +1,9 @@
+3D viewer > Shading tab > Synapse color: Custom
+3D viewer > Shading parameters tab > Custom pre-color: Cyan
+3D viewer > View settings tab > Link site scaling: 100
 3D viewer > View settings tab > Line width: 10
 3D viewer > View settings tab > Background: white
 3D viewer > View settings tab > Floor: unchecked
 3D viewer > Stacks tab > Bounding box: unchecked
-Selection 1 > uncheck the "meta" column
+Selection 1 > uncheck the "post" and "meta" column
 3D viewer > Export tab > PNG > Image Width (px): 1790, Image height (px): 2000
