@@ -13,6 +13,7 @@ Postsynaptic neurites that belong to orphaned fragments: 62 (14.19%)
 
 Connectivity matrix - values are the number of synaptic connections from one bCS neuron (column label) to one motor neuron (row label).
 Labels are neuron names on CATMAID: 
+                                                      left T1 bCS   left T1 bCS  right T1 bCS  right T1 bCS
                                               total  neuron 20918  neuron 26821  neuron 79293  neuron 34070
 total                                           268            81            98            40            49
 T1 leg motor neuron L1#10 (neuron 8992)          63            24            17             6            16
