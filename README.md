@@ -5,7 +5,7 @@ We refer to the EM dataset as the Female Adult Nerve Cord, or FANC (pronounced "
 
 See [GridTapeStage](https://github.com/htem/GridTapeStage) for resources related to building and running GridTape-compatible microscopes (TEMCA-GT).
 See the [Lee Lab Resources page](https://www.lee.hms.harvard.edu/resources) for additional resources.
-Image data of the EM dataset can be downloaded in python from [BossDB](https://bossdb.org/project/phelps_hildebrand_graham2020).
+Image data of the EM dataset can be downloaded in python from [BossDB](https://bossdb.org/project/phelps_hildebrand_graham2021).
 Image data of the EM dataset can be downloaded as CATMAID-compatible jpg tiles from Google Cloud `gs://vnc1_r066/alignmentV3/jpgs_for_catmaid`. See the [gsutil docs](https://cloud.google.com/storage/docs/gsutil) for instructions.
 
 ---

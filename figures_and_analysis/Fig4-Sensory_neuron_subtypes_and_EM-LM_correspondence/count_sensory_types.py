@@ -5,7 +5,7 @@ import pymaid_utils as pu
 
 def pull_skids(x):
     return pymaid.get_skids_by_annotation(
-        x + ['Paper: Maniates-Selvin, Hildebrand, Graham et al. 2020'],
+        x + ['Paper: Maniates-Selvin, Hildebrand, Graham et al. 2021'],
         intersect=True,
         remote_instance=pu.source_project
     )

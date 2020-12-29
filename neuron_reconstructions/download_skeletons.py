@@ -16,7 +16,7 @@ project_folders = {
 def download_neurons(skeletons=True, annotations=True):
     """
     Downloads published neuron reconstructions from a catmaid server as .swc files.
-    Currently only works for the Phelps, Hildebrand, Graham et al. 2020 paper,
+    Currently only works for the Phelps, Hildebrand, Graham et al. 2021 paper,
     but can be generalized when other papers in this dataset come out.
 
     You must set a global pymaid instance before calling this function.
@@ -24,7 +24,7 @@ def download_neurons(skeletons=True, annotations=True):
     project_id = pymaid.utils._eval_remote_instance(None).project_id
     project_folder = project_folders[project_id]
 
-    paper_annot = 'Paper: Phelps, Hildebrand, Graham et al. 2020'
+    paper_annot = 'Paper: Phelps, Hildebrand, Graham et al. 2021'
     annotation_exclusions = ['LINKED NEURON', 'need to push updated tracing']
 
     get_neurons = lambda x: pymaid.find_neurons(

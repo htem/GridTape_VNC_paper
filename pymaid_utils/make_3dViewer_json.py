@@ -281,7 +281,7 @@ def makejson_motorneurons(kind=None,
 
 
 def makejson_sensoryneurons(kind=None, flipped=None):
-    always_include = add_kind(['sensory neuron'], kind) #'Paper: Maniates-Selvin, Hildebrand, Graham et al. 2020', 
+    always_include = add_kind(['sensory neuron'], kind) #'Paper: Maniates-Selvin, Hildebrand, Graham et al. 2021', 
     if flipped is False:
         always_include.append('~left-right flipped')
     elif flipped is True:
