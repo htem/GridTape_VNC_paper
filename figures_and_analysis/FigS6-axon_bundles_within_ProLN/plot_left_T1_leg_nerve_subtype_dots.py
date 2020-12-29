@@ -60,7 +60,7 @@ for color in colorword_to_annots:
     label = colorword_to_label.get(color, annots)  # Default to using the annotations as the label
     skids = pymaid.get_skids_by_annotation(annots, intersect=True)
     job.render_nodes(ax,
-                     treenodes=True,
+                     nodes=True,
                      connectors=False,
                      skid_include=skids,
                      tn_color=pu.colorword_to_hex[color],

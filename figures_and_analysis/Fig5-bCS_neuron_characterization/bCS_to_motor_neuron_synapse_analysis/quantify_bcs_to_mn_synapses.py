@@ -38,18 +38,18 @@ mn_skids_left_T1_leg_nerve = set(pymaid.get_skids_by_annotation(['T1 leg motor n
 
 primary_neurite_radius = 500
 
-#treenode_ids for nodes that are being used as a proxy for the location of the spike initiation zone.  Key is MN skid.
+#node_ids for nodes that are being used as a proxy for the location of the spike initiation zone.  Key is MN skid.
 #Currently using the last branch point on a motor neuron primary neurite before it heads into the leg nerve.
-#last_branch_treenode_ids = {9004: 356706, 2713: 168524, 8991: 70555, 463:
+#last_branch_node_ids = {9004: 356706, 2713: 168524, 8991: 70555, 463:
 #        4996700, 467: 58104, 9012: 64886, 8995: 67236, 9629: 81068, 9008: 68097}
 #These nodes are tagged as "last branch before leaving nerve", so find those points by their tag instead of hardcoding them as above.
 skids_to_use_for_spike_initiation_zone_analysis = [9004, 2713, 8991, 463, 467, 9012, 8995, 9629, 9008]  # The leg nerve MNs receiving 5+ bCS synapses
-last_branch_treenode_ids = pymaid.find_treenodes(
+last_branch_node_ids = pymaid.find_nodes(
     tags='last branch before leaving nerve',
     skeleton_ids=skids_to_use_for_spike_initiation_zone_analysis
 )
-last_branch_treenode_ids.set_index('skeleton_id', inplace=True)
-last_branch_treenode_ids = last_branch_treenode_ids['treenode_id']
+last_branch_node_ids.set_index('skeleton_id', inplace=True)
+last_branch_node_ids = last_branch_node_ids['node_id']
 
 mn_axon_areas_fn = 'motorNeuronAxonAreas_leftT1legNerve.csv'
 
@@ -68,10 +68,12 @@ def get_bcs_skids(side='left', allow_both=True):
 
 
 def get_bcs_fragments(side='left', allow_both=True, fake=False, **kwargs):
-    start_points = pymaid.find_treenodes(tags='bCS connectivity analysis start point')
-    start_points = {int(node[1].skeleton_id): int(node[1].treenode_id) for node in start_points.iterrows()}
-    end_points = pymaid.find_treenodes(tags='bCS connectivity analysis end point')
-    end_points = {int(node[1].skeleton_id): int(node[1].treenode_id) for node in end_points.iterrows()}
+    start_points = pymaid.find_nodes(tags='bCS connectivity analysis start point')
+    start_points = {int(node[1].skeleton_id): int(node[1].node_id) for node in start_points.iterrows()}
+    assert len(start_points) == 4
+    end_points = pymaid.find_nodes(tags='bCS connectivity analysis end point')
+    end_points = {int(node[1].skeleton_id): int(node[1].node_id) for node in end_points.iterrows()}
+    assert len(end_points) == 2
     if 'skids' in kwargs:  # Allow for custom skids that override the standard bCS skids
         skids = kwargs['skids']
     else:
@@ -92,28 +94,28 @@ def get_bcs_fragments(side='left', allow_both=True, fake=False, **kwargs):
     for neuron in bcs:
         if int(neuron.skeleton_id) in start_points:
             try:
-                neuron.prune_proximal_to(start_points[int(neuron.skeleton_id)])
+                neuron.prune_proximal_to(start_points[int(neuron.skeleton_id)], inplace=True)
             except ValueError as e:
                 if 'node is root' not in e.args[0]:
                     raise
         if int(neuron.skeleton_id) in end_points:
-            neuron.prune_distal_to(end_points[int(neuron.skeleton_id)])
+            neuron.prune_distal_to(end_points[int(neuron.skeleton_id)], inplace=True)
     return bcs
 
 
-def walk_n_down_primary_neurite(treenode_id, n, nodes=None):
+def walk_n_down_primary_neurite(node_id, n, nodes=None):
     if nodes is None:
-        nodes = pymaid.get_neuron(pymaid.get_skid_from_treenode(treenode_id)[treenode_id]).nodes
-    if nodes.index.name != 'treenode_id':
-        nodes = nodes.set_index('treenode_id')
+        nodes = pymaid.get_neuron(pymaid.get_skid_from_node(node_id)[node_id]).nodes
+    if nodes.index.name != 'node_id':
+        nodes = nodes.set_index('node_id')
     for i in range(n):
-        treenode_id = nodes.index[(nodes.parent_id == treenode_id) & (nodes.radius == primary_neurite_radius)]
-        if len(treenode_id) is 0:
+        node_id = nodes.index[(nodes.parent_id == node_id) & (nodes.radius == primary_neurite_radius)]
+        if len(node_id) is 0:
             raise Exception('Main branch ends before {} steps could be taken!'.format(n))
-        if len(treenode_id) > 1:
+        if len(node_id) > 1:
             raise Exception('Main branch bifurcates! Can\'t handle this case yet')
-        treenode_id = treenode_id[0]
-    return treenode_id
+        node_id = node_id[0]
+    return node_id
 
 
 def import_lT1mn_axon_areas(filename=mn_axon_areas_fn, neuronidcol=0, areacol=1):
@@ -124,40 +126,40 @@ def import_lT1mn_axon_areas(filename=mn_axon_areas_fn, neuronidcol=0, areacol=1)
     return areas_sorted
 
 
-def measure_distance_to_primary_neurite(treenode_id, nodes=None, scale=.001):
+def measure_distance_to_primary_neurite(node_id, nodes=None, scale=.001):
     if nodes is None: #If the user has already pulled the nodes table, they can pass it to this function to prevent needing to re-pull the nodes
-        nodes = pymaid.get_neuron(pymaid.get_skid_from_treenode(treenode_id)[treenode_id]).nodes.set_index('treenode_id')
-    elif nodes.index.name != 'treenode_id':
-        nodes = nodes.set_index('treenode_id')
+        nodes = pymaid.get_neuron(pymaid.get_skid_from_node(node_id)[node_id]).nodes.set_index('node_id')
+    elif nodes.index.name != 'node_id':
+        nodes = nodes.set_index('node_id')
     distance_to_primary_neurite = 0
-    while nodes.radius.at[treenode_id] != primary_neurite_radius:
-        parent_id = nodes.parent_id.at[treenode_id]
+    while nodes.radius.at[node_id] != primary_neurite_radius:
+        parent_id = nodes.parent_id.at[node_id]
         try:
-            distance_to_primary_neurite += np.linalg.norm(nodes.loc[parent_id, ['x', 'y', 'z']] - nodes.loc[treenode_id, ['x', 'y', 'z']])
+            distance_to_primary_neurite += np.linalg.norm(nodes.loc[parent_id, ['x', 'y', 'z']] - nodes.loc[node_id, ['x', 'y', 'z']])
         except KeyError: #If walking up the tree reached the root before reaching a primary_neurite, return -1 and let the caller decide what to do with it
             return -1, -1
-        treenode_id = parent_id
-    return distance_to_primary_neurite*scale, treenode_id
+        node_id = parent_id
+    return distance_to_primary_neurite*scale, node_id
 
 
 #Because root is always upstream, can do a fast walk back to root instead of using dist_to which calls a shortest_path graph function which is presumably slower.
 #TODO time this versus pymaid.dist_to
-def measure_distance_to_root(treenode_id, nodes=None, scale=.001):
+def measure_distance_to_root(node_id, nodes=None, scale=.001):
     if nodes is None: #If the user has already pulled the nodes table, they can pass it to this function to prevent needing to re-pull the nodes
-        nodes = pymaid.get_neuron(pymaid.get_skid_from_treenode(treenode_id)[treenode_id]).nodes.set_index('treenode_id')
-    elif nodes.index.name != 'treenode_id':
-        nodes = nodes.set_index('treenode_id')
+        nodes = pymaid.get_neuron(pymaid.get_skid_from_node(node_id)[node_id]).nodes.set_index('node_id')
+    elif nodes.index.name != 'node_id':
+        nodes = nodes.set_index('node_id')
     distance_to_root = 0
-    while nodes.at[treenode_id, 'type'] != 'root':
-        parent_id = nodes.parent_id.at[treenode_id]
+    while nodes.at[node_id, 'type'] != 'root':
+        parent_id = nodes.parent_id.at[node_id]
         #try:
-        distance_to_root += np.linalg.norm(nodes.loc[parent_id, ['x', 'y', 'z']] - nodes.loc[treenode_id, ['x', 'y', 'z']])
+        distance_to_root += np.linalg.norm(nodes.loc[parent_id, ['x', 'y', 'z']] - nodes.loc[node_id, ['x', 'y', 'z']])
         #except KeyError: #If walking up the tree reached the root before reaching a primary_neurite, return -1 and let the caller decide what to do with it
         #    return -1
-        treenode_id = parent_id
+        node_id = parent_id
 
     #return distance_to_root
-    return distance_to_root*scale, treenode_id
+    return distance_to_root*scale, node_id
 
 
 #-------FUNCTION DEFINITIONS: PULLING DATA-------#
@@ -181,21 +183,21 @@ def find_orphans(side='both'):
     assert wrongly_tagged_nodes == [], ("Some postsynaptic nodes lack a 'motor', 'central', or"
                                         "'orphan' tag. Go fix this: {}".format(wrongly_tagged_nodes))
     
-    orphan_treenode_ids = [treenode_id for treenode_id in postsynaptic_node_ids if 'orphan' in postsynaptic_node_tags[str(treenode_id)]]
-    orphan_skids = pymaid.get_skid_from_treenode(orphan_treenode_ids)
-    for tid in orphan_treenode_ids:
+    orphan_node_ids = [node_id for node_id in postsynaptic_node_ids if 'orphan' in postsynaptic_node_tags[str(node_id)]]
+    orphan_skids = pymaid.get_skid_from_node(orphan_node_ids)
+    for tid in orphan_node_ids:
         if 'orphan' in postsynaptic_annotations[str(orphan_skids[int(tid)])]:
             #print('{} is an orphan'.format(tid))
             pass
         else:
             print('SKELETON ID {} LACKS ORPHAN ANNOTATION BUT HAS ORPHAN NODE {}.'.format(orphan_skids[int(tid)], tid))
 
-    return orphan_treenode_ids
+    return orphan_node_ids
 
 
 def count_synapse_polyadicity(side='both'):
     connectors = get_bcs_fragments(side=side).presynapses
-    connectors['side'] = ['left' if int(skid) in leftT1bcsSkids else 'right' for skid in connectors.skeleton_id]
+    connectors['side'] = ['left' if int(skid) in leftT1bcsSkids else 'right' for skid in connectors.neuron]
     connector_details = pymaid.get_connector_details(connectors.connector_id).set_index('connector_id')
     polyadicity = [len(postsynapses) for postsynapses in connector_details.postsynaptic_to_node]
     assert len(connectors) == len(connector_details) and len(connectors) == len(polyadicity)
@@ -262,14 +264,14 @@ def count_postsynaptic_motor_central_orphan(side='both'):
     postsynaptic_skids = set([skid for skids in connector_details.postsynaptic_to for skid in skids])
     postsynaptic_nodes = [node for node_list in connector_details.postsynaptic_to_node for node in node_list]  # Single nodes postsynaptic to two synapses are listed twice here
     postsynaptic_nodes_and_skids = try_catch_network_error(
-        'pymaid.get_skid_from_treenode(postsynaptic_nodes)',
+        'pymaid.get_skid_from_node(postsynaptic_nodes)',
         variables={'postsynaptic_nodes': postsynaptic_nodes, 'pymaid': pymaid}
     ) #Dict, so no duplicates
 
     #Validation, only needed to run this once to make sure the above code worked:
     #matches = discrepancies = 0
     #for node in postsynaptic_nodes_and_skids:
-    #    if pymaid.get_skid_from_treenode(node)[int(node)] == int(postsynaptic_nodes_and_skids[node]):
+    #    if pymaid.get_skid_from_node(node)[int(node)] == int(postsynaptic_nodes_and_skids[node]):
     #        matches += 1
     #    else:
     #        discrepancies += 1
@@ -348,6 +350,8 @@ def count_T1bCS_to_lT1mn_synapses(side='both', prune_bcs_to_fragments=True, mn_s
         connectivity.index = [names[skid] if skid != 'total' else 'total'
                 for skid in connectivity.index]
         names = pymaid.get_names(bcs_skids)
+        names = {k: v.replace('leg bilateral campaniform sensillum neuron', 'bCS')
+                for k, v in names.items()}
         connectivity.columns = [names[skid] if skid != 'total' else 'total'
                 for skid in connectivity.columns]
 
@@ -481,7 +485,7 @@ def build_distance_to_primary_neurite_distribution(skid, scale=.001, load_if_exi
             distribution_parameters = json.load(parameter_file)
         return {skid: distribution_parameters}
 
-    nodes = pymaid.get_neuron(skid).nodes.set_index('treenode_id')
+    nodes = pymaid.get_neuron(skid).nodes.set_index('node_id')
     distribution_parameters = {"branch_distances": [], "leaf_distances": []}
     branch_ids = nodes.loc[nodes.type == 'branch'].index
     leaf_ids = nodes.loc[(nodes.type == 'end') & (nodes.radius != primary_neurite_radius)].index
@@ -533,11 +537,11 @@ def build_distance_to_primary_neurite_distribution(skid, scale=.001, load_if_exi
     return {skid: distribution_parameters}
 
 
-def build_distance_to_specified_node_distribution(treenode_id, nodes=None, prune_distal_to=False, prune_nucleus_branches=True, scale=.001, load_if_exists=True):
-    skid = pymaid.get_skid_from_treenode(treenode_id)[treenode_id]
+def build_distance_to_specified_node_distribution(node_id, nodes=None, prune_distal_to=False, prune_nucleus_branches=True, scale=.001, load_if_exists=True):
+    skid = pymaid.get_skid_from_node(node_id)[node_id]
     parameter_filename = ('.quantify_bcs_to_mn_synapses_cache/'
                           'distance_to_specified_node_distribution_parameters/'
-                          'skid {} treenode {}.json'.format(skid, treenode_id))
+                          'skid {} node {}.json'.format(skid, node_id))
 
     if load_if_exists and os.path.exists(parameter_filename):
         print('Loading parameters from {}'.format(parameter_filename))
@@ -546,23 +550,23 @@ def build_distance_to_specified_node_distribution(treenode_id, nodes=None, prune
         return {skid: distribution_parameters}
 
     if nodes is None: 
-        #Pull neuron, optionally prune it, reroot it to the specified node, and re-index the nodes DataFrame by the treenode_id column
+        #Pull neuron, optionally prune it, reroot it to the specified node, and re-index the nodes DataFrame by the node_id column
         neuron = pymaid.get_neuron(skid)
         old_root_id = neuron.root[0]
         if prune_distal_to:
-            prune_node = treenode_id
+            prune_node = node_id
             node_count_before = neuron.n_nodes
             neuron.prune_distal_to(prune_node, inplace=True)
             node_count_after = neuron.n_nodes
             print('Pruned skid {} from {} nodes to {} nodes'.format(skid, node_count_before, node_count_after))
-        neuron.reroot(treenode_id, inplace=True)
+        neuron.reroot(node_id, inplace=True)
         if prune_nucleus_branches:
-            assert old_root_id == neuron.nodes.treenode_id[neuron.nodes.radius > primary_neurite_radius].iloc[0], 'There\'s a snake in my boot!'
+            assert old_root_id == neuron.nodes.node_id[neuron.nodes.radius > primary_neurite_radius].iloc[0], 'There\'s a snake in my boot!'
             neuron.prune_distal_to(old_root_id, inplace=True)
-        nodes = neuron.nodes.set_index('treenode_id')
+        nodes = neuron.nodes.set_index('node_id')
         #pymaid.plot3d(neuron)
-    elif nodes.index.name != 'treenode_id': #If the user passes nodes, it has to already have been pre-processed as above, except for indexing
-        nodes = nodes.set_index('treenode_id')
+    elif nodes.index.name != 'node_id': #If the user passes nodes, it has to already have been pre-processed as above, except for indexing
+        nodes = nodes.set_index('node_id')
 
     distribution_parameters = {"branch_distances": [], "leaf_distances": []}
     branch_ids = nodes.loc[nodes.type == 'branch'].index #Currently takes all 'branch' type nodes. Are there ways to filter weird corner case nodes out here?
@@ -702,8 +706,8 @@ def plot_distance_to_primary_neurite_distribution(skid, title=None, normalize='p
                                title=title, normalize=normalize, ax=ax, color=color)
 
 
-def plot_distance_to_specified_node_distribution(treenode_id, title=None, normalize='percentage', ax=None, color='blue'):
-    plot_distance_distribution(build_distance_to_specified_node_distribution(treenode_id),
+def plot_distance_to_specified_node_distribution(node_id, title=None, normalize='percentage', ax=None, color='blue'):
+    plot_distance_distribution(build_distance_to_specified_node_distribution(node_id),
                                title=title, normalize=normalize, ax=ax, color=color)
 
 
@@ -814,7 +818,7 @@ def plot_postsynaptic_partners_synapse_counts(side='both', prune_bcs_to_fragment
               + list(range(ytickgap, max_weight + 1, ytickgap)))
     plt.yticks(yticks, fontsize=8)
     plt.ylim([0, max_weight + 5])
-    plt.title('Neurons postsynaptic to\n5 or more T1 bCS synapses', fontsize=8)
+    plt.title('Neurons postsynaptic to\n{} or more T1 bCS synapses'.format(connection_weight_cutoff), fontsize=8)
     plt.xlabel('Rank (ordered by # of synaptic inputs)', fontsize=8)
     plt.ylabel('# of synaptic inputs\nfrom T1 bCS neurons', fontsize=9)
     plt.legend(fontsize=8)
@@ -1218,7 +1222,7 @@ def plot_left_vs_right_bCS_partners(mn_skids='leg nerve'):
 
 def plot_synapse_distance_to_siz(presynaptic_skids='both', postsynaptic_skids=None,
                                  cumulative=True, title=None, ax=None, color='red', load_from_temp=True):
-    siz_tids = {skid: walk_n_down_primary_neurite(last_branch_treenode_ids[skid],1) for skid in last_branch_treenode_ids.index}
+    siz_tids = {skid: walk_n_down_primary_neurite(last_branch_node_ids[skid],1) for skid in last_branch_node_ids.index}
     if postsynaptic_skids is None:
         postsynaptic_skids = list(siz_tids.keys())
     distance_postsynapse_to_siz = []
@@ -1238,12 +1242,12 @@ def plot_synapse_distance_to_siz(presynaptic_skids='both', postsynaptic_skids=No
         #postsynaptic_skids_and_annotations = pymaid.get_annotations(set([skid for skids in connector_details.postsynaptic_to for skid in skids]))
         postsynaptic_neurons_nodes = {skid: pymaid.get_neuron(skid).reroot(siz_tids[skid], inplace=False).nodes for skid in postsynaptic_skids}
         for connector_id, details in connector_details.iterrows():
-            for postsynaptic_treenode, postsynaptic_skid in zip(details['postsynaptic_to_node'], details['postsynaptic_to']):
+            for postsynaptic_node, postsynaptic_skid in zip(details['postsynaptic_to_node'], details['postsynaptic_to']):
                 if postsynaptic_skid in postsynaptic_skids:
-                    print('Measuring distance from postsynaptic node {}'.format(postsynaptic_treenode))
+                    print('Measuring distance from postsynaptic node {}'.format(postsynaptic_node))
                     distance_postsynapse_to_siz.append(
                         measure_distance_to_root(
-                            postsynaptic_treenode,
+                            postsynaptic_node,
                             nodes=postsynaptic_neurons_nodes[postsynaptic_skid]
                         )[0]
                     )
@@ -1291,7 +1295,7 @@ def plot_synapse_distance_to_siz(presynaptic_skids='both', postsynaptic_skids=No
 def plot_synapse_distance_to_primary_neurite(presynaptic_skids='both', postsynaptic_skids=mn_skids_left_T1_leg_nerve,
                                              cumulative=True, title=None, ax=None, color='red', load_from_temp=True):
     if postsynaptic_skids is None:
-        siz_tids = {skid: walk_n_down_primary_neurite(last_branch_treenode_ids[skid],1) for skid in last_branch_treenode_ids.index}
+        siz_tids = {skid: walk_n_down_primary_neurite(last_branch_node_ids[skid],1) for skid in last_branch_node_ids.index}
         postsynaptic_skids = list(siz_tids.keys())
     distance_postsynapse_to_primary_neurite = []
 
@@ -1305,10 +1309,10 @@ def plot_synapse_distance_to_primary_neurite(presynaptic_skids='both', postsynap
         connectors = get_bcs_fragments(side=presynaptic_skids).presynapses
         connector_details = pymaid.get_connector_details(connectors.connector_id).set_index('connector_id')
         for connector_id, details in connector_details.iterrows():
-            for postsynaptic_treenode, postsynaptic_skid in zip(details['postsynaptic_to_node'], details['postsynaptic_to']):
+            for postsynaptic_node, postsynaptic_skid in zip(details['postsynaptic_to_node'], details['postsynaptic_to']):
                 if postsynaptic_skid in postsynaptic_skids:
-                    print('Measuring distance from postsynaptic node {}'.format(postsynaptic_treenode))
-                    distance = measure_distance_to_primary_neurite(postsynaptic_treenode)[0]
+                    print('Measuring distance from postsynaptic node {}'.format(postsynaptic_node))
+                    distance = measure_distance_to_primary_neurite(postsynaptic_node)[0]
                     assert distance != -1  # TODO deal with -1 responses better. Probably be like wtf how did that synapse get there.
                     distance_postsynapse_to_primary_neurite.append(distance)
         print('Measured distances of {} postsynapses'.format(len(distance_postsynapse_to_primary_neurite)))
@@ -1352,7 +1356,7 @@ def plot_overlaid_synapses_and_distance_distributions(plot_to_primary_neurite=Tr
                                                       cumulative=True):
     all_siz_distributions = {}
     all_primary_neurite_distributions = {}
-    siz_tids = {skid: walk_n_down_primary_neurite(last_branch_treenode_ids[skid],1) for skid in last_branch_treenode_ids.index}
+    siz_tids = {skid: walk_n_down_primary_neurite(last_branch_node_ids[skid],1) for skid in last_branch_node_ids.index}
     for skid in siz_tids:
         if plot_to_last_branch:
             siz_distrib = build_distance_to_specified_node_distribution(siz_tids[skid], prune_distal_to=True)
@@ -1412,7 +1416,7 @@ def plot_overlaid_synapses_and_distance_distributions(plot_to_primary_neurite=Tr
 
 
 def plot_each_motor_neurons_synapse_distribution(plot_to_siz=True, plot_to_primary_neurite=True):
-    siz_tids = {skid: walk_n_down_primary_neurite(last_branch_treenode_ids[skid],1) for skid in last_branch_treenode_ids.index}
+    siz_tids = {skid: walk_n_down_primary_neurite(last_branch_node_ids[skid],1) for skid in last_branch_node_ids.index}
     for skid in siz_tids:
         if plot_to_siz:
             print('Building distance distribution')
