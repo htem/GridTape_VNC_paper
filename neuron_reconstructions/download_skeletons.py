@@ -25,7 +25,13 @@ def download_neurons(skeletons=True, annotations=True):
     project_folder = project_folders[project_id]
 
     paper_annot = 'Paper: Phelps, Hildebrand, Graham et al. 2021'
-    annotation_exclusions = ['LINKED NEURON', 'need to push updated tracing']
+    annotation_exclusion_functions = [
+        lambda x: x.startswith('LINKED NEURON -'),
+        lambda x: x.startswith('UPDATED FROM LINKED NEURON'),
+        lambda x: x.startswith('Neuron'),
+        lambda x: 'figure' in x
+    ]
+    annotation_exclusions = ['enveloping', 'leaves through damage', 'skeleton']
 
     get_neurons = lambda x: pymaid.find_neurons(
         skids=pymaid.get_skids_by_annotation(x, intersect=True),
@@ -43,12 +49,15 @@ def download_neurons(skeletons=True, annotations=True):
 
         if skeletons:
             print('Saving {}'.format(folder))
-            n.to_swc(filenames=[os.path.join(folder, name) for name in n.neuron_name])
+            n.to_swc(filename=[os.path.join(folder, name) for name in n.neuron_name])
 
         if annotations:
             print('Pulling and saving {} annotations'.format(cell_type))
-            annotations = [[annot for annot in x if not any([exclude in annot for exclude in annotation_exclusions])]
-                           for x in n.annotations]
+            annotations = [
+                [annot for annot in x if all([not f(annot) for f in annotation_exclusion_functions])
+                                         and annot not in annotation_exclusions]
+                for x in n.annotations
+            ]
             annotations_fn = os.path.join(project_folder, cell_type + '_annotations.json')
             with open(annotations_fn, 'w') as f:
                 json.dump({a: b for a, b in zip(n.neuron_name, annotations)}, f, indent=4)

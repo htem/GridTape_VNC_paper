@@ -1,503 +1,460 @@
 {
-    "neuron 65856 - elastic transform": [
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "central neuron",
-        "left soma",
-        "needs review",
+    "central neuron 244639 - elastic transform": [
         "receives 2+ total synapses in left T1 from left or right T1 bCS",
-        "receives 5+ total synapses in left T1 from left or right T1 bCS"
-    ],
-    "neuron 11440 - elastic transform - flipped": [
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "left-right flipped",
-        "right soma",
-        "posterior soma",
-        "right T1 dorsal nerve",
-        "efferent neuron",
-        "T1 multinerve neuron"
-    ],
-    "neuron 9873 - elastic transform": [
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "skeleton",
-        "left T1 accessory nerve",
-        "left T1 dorsal nerve",
         "left soma",
-        "posterior soma",
-        "efferent neuron",
-        "T1 multinerve neuron"
-    ],
-    "neuron 116675 - elastic transform - flipped": [
-        "haltere DUM neuron",
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "central neuron",
         "tracing from electron microscopy",
-        "left-right flipped",
-        "right haltere nerve",
-        "left haltere nerve",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "central neuron 83593 - elastic transform": [
+        "receives 5+ total synapses in left T1 from left or right T1 bCS",
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "midline soma",
+        "central neuron",
+        "tracing from electron microscopy",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "T3 leg UM neuron (neuron 76863) - elastic transform": [
         "efferent neuron",
-        "skeleton"
+        "right T3 leg nerve",
+        "left T3 leg nerve",
+        "tracing from electron microscopy",
+        "T3 leg DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "central neuron 65856 - elastic transform": [
+        "receives 5+ total synapses in left T1 from left or right T1 bCS",
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "left soma",
+        "central neuron",
+        "tracing from electron microscopy",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
     ],
     "peripherally synapsing interneuron_left - elastic transform": [
-        "peripherally synapsing interneuron",
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "skeleton",
-        "left soma",
-        "right posterior dorsal mesothoracic nerve",
+        "efferent neuron",
         "left-right homologs 12916 & 69998",
-        "efferent neuron"
-    ],
-    "neuron 71278 - elastic transform": [
-        "wing DUM neuron",
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "right posterior dorsal mesothoracic nerve",
+        "left soma",
         "tracing from electron microscopy",
-        "skeleton",
-        "right anterior dorsal mesothoracic nerve",
+        "peripherally synapsing interneuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "wing UM neuron (neuron 73185) - elastic transform": [
+        "efferent neuron",
+        "left anterior dorsal mesothoracic nerve",
         "left T2 accessory nerve",
+        "right anterior dorsal mesothoracic nerve",
+        "tracing from electron microscopy",
+        "wing DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "central neuron 87095 - elastic transform": [
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "central neuron",
+        "tracing from electron microscopy",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "central neuron 83341 - elastic transform": [
+        "receives 5+ total synapses in left T1 from left or right T1 bCS",
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "left soma",
+        "central neuron",
+        "tracing from electron microscopy",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "central neuron 65807 - elastic transform": [
+        "receives 5+ total synapses in left T1 from left or right T1 bCS",
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "left soma",
+        "central neuron",
+        "tracing from electron microscopy",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "right T1 multinerve neuron (neuron 11440) - elastic transform - flipped": [
+        "T1 multinerve neuron",
+        "efferent neuron",
+        "right T1 dorsal nerve",
+        "posterior soma",
+        "right soma",
+        "left-right flipped",
+        "tracing from electron microscopy",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "neck UM neuron (neuron 9494) - elastic transform": [
+        "neck DUM neuron",
+        "efferent neuron",
+        "right cervical nerve",
+        "left cervical nerve",
+        "tracing from electron microscopy",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "T1 leg UM neuron (neuron 9477) - elastic transform - flipped": [
+        "efferent neuron",
+        "left T1 dorsal nerve",
+        "left T1 accessory nerve",
+        "left T1 leg nerve",
+        "left-right flipped",
+        "tracing from electron microscopy",
+        "T1 leg DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "T2 leg UM neuron (neuron 70241) - elastic transform": [
+        "right dorsal-5 branch of T2 leg nerve",
+        "nerve deduced by homology",
+        "right T2 accessory nerve",
+        "left T2 accessory nerve",
+        "left ventral-3 branch of T2 leg nerve",
+        "left dorsal-3 branch of T2 leg nerve",
+        "left dorsal-5 branch of T2 leg nerve",
+        "efferent neuron",
+        "right T2 leg nerve",
+        "left T2 leg nerve",
+        "tracing from electron microscopy",
+        "T2 leg DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "wing UM neuron (neuron 73129) - elastic transform": [
+        "left dorsal-5 branch of T2 leg nerve",
+        "efferent neuron",
+        "right anterior dorsal mesothoracic nerve",
+        "right T2 accessory nerve",
+        "left T2 accessory nerve",
+        "left anterior dorsal mesothoracic nerve",
+        "tracing from electron microscopy",
+        "wing DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "central neuron 117471 - elastic transform": [
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "left soma",
+        "central neuron",
+        "tracing from electron microscopy",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "left T1 multinerve neuron (neuron 9772) - elastic transform": [
+        "left T1 dorsal nerve",
+        "left T1 accessory nerve",
+        "left soma",
+        "posterior soma",
+        "T1 multinerve neuron",
+        "efferent neuron",
+        "tracing from electron microscopy",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "central neuron 252963 - elastic transform": [
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "left soma",
+        "central neuron",
+        "tracing from electron microscopy",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "central neuron 104469 - elastic transform": [
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "left soma",
+        "central neuron",
+        "tracing from electron microscopy",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "T1 leg UM neuron (neuron 9477) - elastic transform": [
+        "efferent neuron",
+        "left T1 dorsal nerve",
+        "left T1 accessory nerve",
+        "left T1 leg nerve",
+        "tracing from electron microscopy",
+        "T1 leg DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "central neuron 115534 - elastic transform": [
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "left soma",
+        "central neuron",
+        "tracing from electron microscopy",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "wing UM neuron (neuron 73169) - elastic transform": [
+        "efferent neuron",
+        "left posterior dorsal mesothoracic nerve",
+        "right posterior dorsal mesothoracic nerve",
+        "tracing from electron microscopy",
+        "wing DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "wing UM neuron (neuron 71286) - elastic transform": [
+        "efferent neuron",
         "right T2 accessory nerve",
         "left anterior dorsal mesothoracic nerve",
-        "efferent neuron"
-    ],
-    "neuron 11440 - elastic transform": [
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "left T2 accessory nerve",
+        "right anterior dorsal mesothoracic nerve",
         "tracing from electron microscopy",
-        "right soma",
-        "posterior soma",
-        "skeleton",
+        "wing DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "right T1 multinerve neuron (neuron 11440) - elastic transform": [
+        "T1 multinerve neuron",
+        "efferent neuron",
         "right T1 dorsal nerve",
-        "efferent neuron",
-        "T1 multinerve neuron"
-    ],
-    "neuron 9494 - elastic transform - flipped": [
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "posterior soma",
+        "right soma",
         "tracing from electron microscopy",
-        "left-right flipped",
-        "skeleton",
-        "left cervical nerve",
-        "right cervical nerve",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "haltere UM neuron (neuron 116675) - elastic transform - flipped": [
         "efferent neuron",
-        "neck DUM neuron"
+        "left haltere nerve",
+        "right haltere nerve",
+        "left-right flipped",
+        "tracing from electron microscopy",
+        "haltere DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "wing UM neuron (neuron 71278) - elastic transform - flipped": [
+        "efferent neuron",
+        "left anterior dorsal mesothoracic nerve",
+        "right T2 accessory nerve",
+        "left T2 accessory nerve",
+        "right anterior dorsal mesothoracic nerve",
+        "left-right flipped",
+        "tracing from electron microscopy",
+        "wing DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "neck UM neuron (neuron 9494) - elastic transform - flipped": [
+        "neck DUM neuron",
+        "efferent neuron",
+        "right cervical nerve",
+        "left cervical nerve",
+        "left-right flipped",
+        "tracing from electron microscopy",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "central neuron 83503 - elastic transform": [
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "left soma",
+        "central neuron",
+        "tracing from electron microscopy",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "central neuron 86814 - elastic transform": [
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "left soma",
+        "central neuron",
+        "tracing from electron microscopy",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "wing UM neuron (neuron 73185) - elastic transform - flipped": [
+        "efferent neuron",
+        "left anterior dorsal mesothoracic nerve",
+        "left T2 accessory nerve",
+        "right anterior dorsal mesothoracic nerve",
+        "left-right flipped",
+        "tracing from electron microscopy",
+        "wing DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "central neuron 27921 - elastic transform": [
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "left soma",
+        "central neuron",
+        "tracing from electron microscopy",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "wing UM neuron (neuron 71286) - elastic transform - flipped": [
+        "efferent neuron",
+        "right T2 accessory nerve",
+        "left anterior dorsal mesothoracic nerve",
+        "left T2 accessory nerve",
+        "right anterior dorsal mesothoracic nerve",
+        "left-right flipped",
+        "tracing from electron microscopy",
+        "wing DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "wing UM neuron (neuron 71278) - elastic transform": [
+        "efferent neuron",
+        "left anterior dorsal mesothoracic nerve",
+        "right T2 accessory nerve",
+        "left T2 accessory nerve",
+        "right anterior dorsal mesothoracic nerve",
+        "tracing from electron microscopy",
+        "wing DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "T1 leg UM neuron (neuron 9203) - elastic transform - flipped": [
+        "efferent neuron",
+        "left T1 ventral nerve",
+        "left T1 accessory nerve",
+        "left T1 leg nerve",
+        "left-right flipped",
+        "tracing from electron microscopy",
+        "T1 leg DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "central neuron 115485 - elastic transform": [
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "left soma",
+        "central neuron",
+        "tracing from electron microscopy",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "wing UM neuron (neuron 73129) - elastic transform - flipped": [
+        "left dorsal-5 branch of T2 leg nerve",
+        "efferent neuron",
+        "right anterior dorsal mesothoracic nerve",
+        "right T2 accessory nerve",
+        "left T2 accessory nerve",
+        "left anterior dorsal mesothoracic nerve",
+        "left-right flipped",
+        "tracing from electron microscopy",
+        "wing DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "T3 leg UM neuron (neuron 107303) - elastic transform - flipped": [
+        "left T3 leg nerve",
+        "right T3 leg nerve",
+        "right first abdominal nerve",
+        "left first abdominal nerve",
+        "efferent neuron",
+        "left-right flipped",
+        "tracing from electron microscopy",
+        "T3 leg DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "central neuron 102912 - elastic transform": [
+        "receives 5+ total synapses in left T1 from left or right T1 bCS",
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "midline soma",
+        "central neuron",
+        "tracing from electron microscopy",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "wing UM neuron (neuron 73169) - elastic transform - flipped": [
+        "efferent neuron",
+        "left posterior dorsal mesothoracic nerve",
+        "right posterior dorsal mesothoracic nerve",
+        "left-right flipped",
+        "tracing from electron microscopy",
+        "wing DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
     ],
     "peripherally synapsing interneuron_right - elastic transform": [
-        "peripherally synapsing interneuron",
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "skeleton",
-        "right soma",
-        "left posterior dorsal mesothoracic nerve",
+        "efferent neuron",
         "left-right homologs 12916 & 69998",
-        "efferent neuron"
-    ],
-    "neuron 71286 - elastic transform": [
-        "wing DUM neuron",
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "left posterior dorsal mesothoracic nerve",
+        "right soma",
         "tracing from electron microscopy",
-        "skeleton",
-        "right anterior dorsal mesothoracic nerve",
-        "left T2 accessory nerve",
-        "left anterior dorsal mesothoracic nerve",
-        "right T2 accessory nerve",
-        "efferent neuron"
+        "peripherally synapsing interneuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
     ],
-    "neuron 70241 - elastic transform": [
-        "T2 leg DUM neuron",
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "skeleton",
-        "left T2 leg nerve",
-        "right T2 leg nerve",
+    "wing UM neuron (neuron 72932) - elastic transform - flipped": [
         "efferent neuron",
-        "left dorsal-5 branch of T2 leg nerve",
-        "left dorsal-3 branch of T2 leg nerve",
-        "left ventral-3 branch of T2 leg nerve",
-        "left T2 accessory nerve",
-        "right T2 accessory nerve",
-        "nerve deduced by homology",
-        "right dorsal-5 branch of T2 leg nerve"
-    ],
-    "neuron 252963 - elastic transform": [
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "neuron",
-        "central neuron",
-        "left soma",
-        "receives 2+ total synapses in left T1 from left or right T1 bCS"
-    ],
-    "neuron 9477 - elastic transform - flipped": [
-        "T1 leg DUM neuron",
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
+        "left posterior dorsal mesothoracic nerve",
+        "right posterior dorsal mesothoracic nerve",
         "left-right flipped",
-        "leaves through damage",
-        "skeleton",
-        "left T1 leg nerve",
-        "left T1 accessory nerve",
-        "left T1 dorsal nerve",
-        "efferent neuron"
-    ],
-    "neuron 76863 - elastic transform": [
-        "T3 leg DUM neuron",
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
         "tracing from electron microscopy",
-        "skeleton",
-        "left T3 leg nerve",
-        "right T3 leg nerve",
-        "efferent neuron"
-    ],
-    "neuron 83593 - elastic transform": [
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "central neuron",
-        "midline soma",
-        "receives 2+ total synapses in left T1 from left or right T1 bCS",
-        "receives 5+ total synapses in left T1 from left or right T1 bCS"
-    ],
-    "neuron 27921 - elastic transform": [
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "central neuron",
-        "left soma",
-        "receives 2+ total synapses in left T1 from left or right T1 bCS"
-    ],
-    "Neuron 244639 - elastic transform": [
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "central neuron",
-        "neuron",
-        "left soma",
-        "receives 2+ total synapses in left T1 from left or right T1 bCS"
-    ],
-    "neuron 83341 - elastic transform": [
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "central neuron",
-        "left soma",
-        "receives 2+ total synapses in left T1 from left or right T1 bCS",
-        "receives 5+ total synapses in left T1 from left or right T1 bCS"
-    ],
-    "Neuron 243834 - elastic transform": [
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "left soma",
-        "tracing from electron microscopy",
-        "central neuron",
-        "receives 2+ total synapses in left T1 from left or right T1 bCS"
-    ],
-    "neuron 73185 - elastic transform": [
         "wing DUM neuron",
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "skeleton",
-        "right anterior dorsal mesothoracic nerve",
-        "left T2 accessory nerve",
-        "left anterior dorsal mesothoracic nerve",
-        "efferent neuron"
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
     ],
-    "neuron 116675 - elastic transform": [
-        "haltere DUM neuron",
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+    "T3 leg UM neuron (neuron 76863) - elastic transform - flipped": [
+        "efferent neuron",
+        "right T3 leg nerve",
+        "left T3 leg nerve",
+        "left-right flipped",
         "tracing from electron microscopy",
-        "right haltere nerve",
+        "T3 leg DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "central neuron 243834 - elastic transform": [
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
+        "central neuron",
+        "tracing from electron microscopy",
+        "left soma",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "haltere UM neuron (neuron 116675) - elastic transform": [
+        "efferent neuron",
         "left haltere nerve",
+        "right haltere nerve",
+        "tracing from electron microscopy",
+        "haltere DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "T3 leg UM neuron (neuron 107303) - elastic transform": [
+        "left T3 leg nerve",
+        "right T3 leg nerve",
+        "right first abdominal nerve",
+        "left first abdominal nerve",
         "efferent neuron",
-        "skeleton"
-    ],
-    "neuron 87095 - elastic transform": [
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
         "tracing from electron microscopy",
-        "central neuron",
-        "receives 2+ total synapses in left T1 from left or right T1 bCS"
+        "T3 leg DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
     ],
-    "neuron 73129 - elastic transform - flipped": [
-        "wing DUM neuron",
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "left-right flipped",
-        "skeleton",
-        "left anterior dorsal mesothoracic nerve",
-        "left T2 accessory nerve",
-        "right T2 accessory nerve",
-        "right anterior dorsal mesothoracic nerve",
-        "efferent neuron",
-        "left dorsal-5 branch of T2 leg nerve"
-    ],
-    "neuron 9494 - elastic transform": [
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "skeleton",
-        "left cervical nerve",
-        "right cervical nerve",
-        "efferent neuron",
-        "neck DUM neuron"
-    ],
-    "neuron 11698 - elastic transform - flipped": [
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "left-right flipped",
-        "right soma",
-        "posterior soma",
-        "right T1 dorsal nerve",
-        "efferent neuron",
-        "T1 multinerve neuron"
-    ],
-    "neuron 9203 - elastic transform": [
-        "T1 leg DUM neuron",
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "skeleton",
-        "left T1 leg nerve",
-        "left T1 accessory nerve",
-        "left T1 ventral nerve",
-        "leaves through damage",
-        "efferent neuron"
-    ],
-    "neuron 9477 - elastic transform": [
-        "T1 leg DUM neuron",
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "leaves through damage",
-        "skeleton",
-        "left T1 leg nerve",
-        "left T1 accessory nerve",
-        "left T1 dorsal nerve",
-        "efferent neuron"
-    ],
-    "neuron 9203 - elastic transform - flipped": [
-        "T1 leg DUM neuron",
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "left-right flipped",
-        "skeleton",
-        "left T1 leg nerve",
-        "left T1 accessory nerve",
-        "left T1 ventral nerve",
-        "leaves through damage",
-        "efferent neuron"
-    ],
-    "neuron 104469 - elastic transform": [
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "central neuron",
+    "central neuron 30721 - elastic transform": [
+        "receives 2+ total synapses in left T1 from left or right T1 bCS",
         "left soma",
-        "receives 2+ total synapses in left T1 from left or right T1 bCS"
-    ],
-    "neuron 30721 - elastic transform": [
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
         "central neuron",
-        "left soma",
-        "receives 2+ total synapses in left T1 from left or right T1 bCS"
-    ],
-    "neuron 9772 - elastic transform": [
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
         "tracing from electron microscopy",
-        "skeleton",
-        "efferent neuron",
-        "T1 multinerve neuron",
-        "posterior soma",
-        "left soma",
-        "left T1 accessory nerve",
-        "left T1 dorsal nerve",
-        "assigned to jms"
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
     ],
-    "neuron 71286 - elastic transform - flipped": [
-        "wing DUM neuron",
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "left-right flipped",
-        "skeleton",
-        "right anterior dorsal mesothoracic nerve",
-        "left T2 accessory nerve",
-        "left anterior dorsal mesothoracic nerve",
-        "right T2 accessory nerve",
-        "efferent neuron"
-    ],
-    "neuron 11698 - elastic transform": [
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "right soma",
-        "posterior soma",
-        "skeleton",
-        "right T1 dorsal nerve",
-        "efferent neuron",
-        "T1 multinerve neuron"
-    ],
-    "neuron 71278 - elastic transform - flipped": [
-        "wing DUM neuron",
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "left-right flipped",
-        "skeleton",
-        "right anterior dorsal mesothoracic nerve",
-        "left T2 accessory nerve",
-        "right T2 accessory nerve",
-        "left anterior dorsal mesothoracic nerve",
-        "efferent neuron"
-    ],
-    "neuron 72932 - elastic transform - flipped": [
-        "wing DUM neuron",
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "left-right flipped",
-        "skeleton",
-        "neuron",
-        "right posterior dorsal mesothoracic nerve",
-        "left posterior dorsal mesothoracic nerve",
-        "efferent neuron"
-    ],
-    "neuron 117471 - elastic transform": [
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "central neuron",
-        "left soma",
-        "receives 2+ total synapses in left T1 from left or right T1 bCS"
-    ],
-    "neuron 115534 - elastic transform": [
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "central neuron",
-        "left soma",
-        "receives 2+ total synapses in left T1 from left or right T1 bCS"
-    ],
-    "neuron 70241 - elastic transform - flipped": [
-        "T2 leg DUM neuron",
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "left-right flipped",
-        "skeleton",
-        "left T2 leg nerve",
-        "right T2 leg nerve",
-        "efferent neuron",
-        "left dorsal-5 branch of T2 leg nerve",
-        "left dorsal-3 branch of T2 leg nerve",
-        "left ventral-3 branch of T2 leg nerve",
-        "left T2 accessory nerve",
-        "right T2 accessory nerve",
+    "T2 leg UM neuron (neuron 70241) - elastic transform - flipped": [
+        "right dorsal-5 branch of T2 leg nerve",
         "nerve deduced by homology",
-        "right dorsal-5 branch of T2 leg nerve"
-    ],
-    "neuron 115485 - elastic transform": [
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "central neuron",
-        "left soma",
-        "receives 2+ total synapses in left T1 from left or right T1 bCS"
-    ],
-    "neuron 73185 - elastic transform - flipped": [
-        "wing DUM neuron",
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "left-right flipped",
-        "skeleton",
-        "right anterior dorsal mesothoracic nerve",
-        "left T2 accessory nerve",
-        "left anterior dorsal mesothoracic nerve",
-        "efferent neuron"
-    ],
-    "neuron 73129 - elastic transform": [
-        "wing DUM neuron",
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "skeleton",
-        "left anterior dorsal mesothoracic nerve",
-        "left T2 accessory nerve",
         "right T2 accessory nerve",
-        "right anterior dorsal mesothoracic nerve",
+        "left T2 accessory nerve",
+        "left ventral-3 branch of T2 leg nerve",
+        "left dorsal-3 branch of T2 leg nerve",
+        "left dorsal-5 branch of T2 leg nerve",
         "efferent neuron",
-        "left dorsal-5 branch of T2 leg nerve"
-    ],
-    "neuron 107303 - elastic transform": [
-        "T3 leg DUM neuron",
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "right T2 leg nerve",
+        "left T2 leg nerve",
+        "left-right flipped",
         "tracing from electron microscopy",
+        "T2 leg DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "left T1 multinerve neuron (neuron 9873) - elastic transform": [
+        "T1 multinerve neuron",
         "efferent neuron",
-        "left first abdominal nerve",
-        "right first abdominal nerve",
-        "right T3 leg nerve",
-        "left T3 leg nerve",
-        "skeleton"
-    ],
-    "neuron 73169 - elastic transform": [
-        "wing DUM neuron",
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "skeleton",
-        "right posterior dorsal mesothoracic nerve",
-        "left posterior dorsal mesothoracic nerve",
-        "efferent neuron"
-    ],
-    "neuron 72932 - elastic transform": [
-        "wing DUM neuron",
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "skeleton",
-        "neuron",
-        "right posterior dorsal mesothoracic nerve",
-        "left posterior dorsal mesothoracic nerve",
-        "efferent neuron"
-    ],
-    "neuron 102912 - elastic transform": [
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "central neuron",
-        "midline soma",
-        "receives 2+ total synapses in left T1 from left or right T1 bCS",
-        "receives 5+ total synapses in left T1 from left or right T1 bCS"
-    ],
-    "neuron 65807 - elastic transform": [
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "central neuron",
+        "posterior soma",
         "left soma",
-        "receives 2+ total synapses in left T1 from left or right T1 bCS",
-        "receives 5+ total synapses in left T1 from left or right T1 bCS"
-    ],
-    "neuron 76863 - elastic transform - flipped": [
-        "T3 leg DUM neuron",
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
+        "left T1 dorsal nerve",
+        "left T1 accessory nerve",
         "tracing from electron microscopy",
-        "left-right flipped",
-        "skeleton",
-        "left T3 leg nerve",
-        "right T3 leg nerve",
-        "efferent neuron"
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
     ],
-    "neuron 83503 - elastic transform": [
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "central neuron",
-        "neuron",
-        "left soma",
-        "receives 2+ total synapses in left T1 from left or right T1 bCS"
-    ],
-    "neuron 73169 - elastic transform - flipped": [
-        "wing DUM neuron",
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "left-right flipped",
-        "skeleton",
-        "right posterior dorsal mesothoracic nerve",
-        "left posterior dorsal mesothoracic nerve",
-        "efferent neuron"
-    ],
-    "neuron 86814 - elastic transform": [
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "central neuron",
-        "left soma",
-        "receives 2+ total synapses in left T1 from left or right T1 bCS"
-    ],
-    "neuron 107303 - elastic transform - flipped": [
-        "T3 leg DUM neuron",
-        "Paper: Phelps, Hildebrand, Graham et al. 2020",
-        "tracing from electron microscopy",
-        "left-right flipped",
+    "right T1 multinerve neuron (neuron 11698) - elastic transform - flipped": [
+        "T1 multinerve neuron",
         "efferent neuron",
-        "left first abdominal nerve",
-        "right first abdominal nerve",
-        "right T3 leg nerve",
-        "left T3 leg nerve",
-        "skeleton"
+        "right T1 dorsal nerve",
+        "posterior soma",
+        "right soma",
+        "left-right flipped",
+        "tracing from electron microscopy",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "T1 leg UM neuron (neuron 9203) - elastic transform": [
+        "efferent neuron",
+        "left T1 ventral nerve",
+        "left T1 accessory nerve",
+        "left T1 leg nerve",
+        "tracing from electron microscopy",
+        "T1 leg DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "right T1 multinerve neuron (neuron 11698) - elastic transform": [
+        "T1 multinerve neuron",
+        "efferent neuron",
+        "right T1 dorsal nerve",
+        "posterior soma",
+        "right soma",
+        "tracing from electron microscopy",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
+    ],
+    "wing UM neuron (neuron 72932) - elastic transform": [
+        "efferent neuron",
+        "left posterior dorsal mesothoracic nerve",
+        "right posterior dorsal mesothoracic nerve",
+        "tracing from electron microscopy",
+        "wing DUM neuron",
+        "Paper: Phelps, Hildebrand, Graham et al. 2021"
     ]
 }
