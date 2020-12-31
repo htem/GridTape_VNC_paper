@@ -1,6 +1,8 @@
 ## A pipeline for running elastix to register two 3D image stacks.
 Intended use is registering neuroimaging data from one individual to a standard template of the imaged brain structure. Recommended parameters in this pipeline have been tuned for aligning adult Drosophila ventral nerve cords, which are ~450 x 200 x 150 microns in size. If you're trying to use this to register structures of different spatial sizes, you may need to tune parameters yourself.
 
+THIS CODE IS INCLUDED IN THIS REPOSITORY FOR POSTERITY, BUT CONTINUED DEVELOPMENT OF HAS BEEN MOVED TO [A SEPARATE REPOSITORY](https://github.com/htem/run_elastix). Check that repository for the latest code.
+
 ---
 
 ## Usage Manual
