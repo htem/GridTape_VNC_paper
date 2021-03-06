@@ -1,0 +1,1 @@
+These meshes are registered to the Full Adult Nerve Cord EM dataset. Displaying them can be helpful when visualizing neuron reconstructions from the EM dataset (without needing to warp the reconstructions into alignment with the VNC template).
