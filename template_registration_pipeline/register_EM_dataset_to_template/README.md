@@ -1,13 +1,12 @@
-3 image volumes are provided here that represent the synapse density of the EM dataset. Descriptions of each are below. Because GitHub has a file size limit of 100MB per file, the image volumes have been split into a few smaller chunks located inside the folder `image_volumes_chunked`.  You can reassemble the combined images from the chunks by running `python combine_image_volume_chunks.py` from this folder, or combine the stacks manually in ImageJ/Fiji.
+3 image volumes are provided here that represent the synapse density of the EM dataset. Descriptions of each are below. Because GitHub has a file size limit of 100MB per file, the image volumes have been split into a few smaller chunks located inside the folder `image_volumes_chunked`.  You can reassemble the combined images from the chunks by running `python3 combine_image_volume_chunks.py` from this folder, or combine the stacks manually in ImageJ/Fiji.
 
 ---
 
 `FANC_synapsesV3.nrrd` was produced by training a convolutional neural network to predict the location of postsynaptic sites within the FANC EM dataset. Predicted values were stored as an image volume (high probability of being a postsynaptic side -> white, low probability -> black) after which some postprocessing was performed to generate `FANC_synapsesV3.nrrd`:
 - Downsampling of the postsynaptic predictions volume from the full EM dataset voxel size of 4.3 x 4.3 x 45nm to 430 x 430 x 450nm.
 - 3D Gaussian blurring the downsampled volume with a 2 pixel (~1 micron) sigma.
-- Flipping the z axis so that the ventral side of the VNC is at low z slices and the dorsal side is at high z slices, to match the dorsal-ventral orientation of the template.
 
-`FANC_synapsesV3_forAlignment.nrrd` is the image volume that was actually registered to the VNC atlas. It has an offset and different voxel size relative to `FANC_synapsesV3.nrrd`. See bottom section of this text file for more details.
+`FANC_synapsesV3_forAlignment.nrrd` is the image volume that was actually registered to the VNC template. It has an offset and different voxel size relative to `FANC_synapsesV3.nrrd`. Additionally, the z axis has been flipped so that the ventral side of the VNC is at low z slices and the dorsal side is at high z slices, to match the dorsal-ventral orientation of the template. See bottom section of this text file for more details.
 
 `FANC_synapsesV3_forAlignment.nrrd` was registered to `JRC2018_VNC_FEMALE_4iso.nrrd` (Janelia 2018 Adult Female VNC Template) by running:
 
@@ -20,7 +19,7 @@ The image volume output by that command is what's contained in `FANC_synapsesV3_
 
 ---
 
-In addition to the downsampling and z axis flipping described in the first paragraph above, there are some additional scaling and offset shenanigans that make it complicated to try to use the files in this folder yourself. However, these difficulties are addressed in other scripts in this repository so that you shouldn't have to think about them. See `pymaid_utils/manipulate_and_reupload_catmaid_neurons.py`'s function `get_elastictransformed_neurons_by_skid` for an example of how to account for all of the rescalings, offsets, and flips described in the steps below. If you want to use the files in this folder yourself, you will need to replicate the steps below in your own code:
+In addition to the downsampling and z axis flipping described in the first paragraph above, there are some additional scaling and offset shenanigans that make it complicated to try to use the files in this folder yourself. However, these difficulties are addressed in other scripts in this repository so that you shouldn't have to think about them. See the function `warp_points_FANC_to_template` and `warp_points_template_to_FANC` in [warp_points_between_FANC_and_template.py](https://github.com/htem/GridTape_VNC_paper/blob/main/template_registration_pipeline/register_EM_dataset_to_template/warp_points_between_FANC_and_template.py) for an example of how to account for all of the rescalings, offsets, and flips described in the steps below. If you want to use the files in this folder yourself, you will need to replicate the steps below in your own code:
 
 To get from coordinates in `FANC_synapsesV3.nrrd` (the synapse density of the EM dataset, in the same physical coordinate frame as the EM dataset) to the corresponding location in the VNC template, take the following steps:<br>
 1. Shift the coordinate by (-533.2, -533.2, -945)nm. This is (-1.24, -1.24, -2.1) voxels in `FANC_synapsesV3.nrrd`'s voxel scaling of (430, 430, 450)nm, or equivalently is (-124, -124, -21) voxels in the EM dataset's voxel scaling of (4.3, 4.3, 45)nm. (This small offset is due to the CNN not making predictions on the borders of the dataset, so the predictions were shifted up-and-left by this small amount relative to the EM dataset.)
