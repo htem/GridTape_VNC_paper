@@ -167,7 +167,7 @@ def make_rainbow_json_by_position(annotations,
 
 
 # --- Below here are functions that call the above functions to make specific
-# --- jsons that I've needed to make frequently in the Full Adult Nerve Cord
+# --- jsons that I've needed to make frequently in the Female Adult Nerve Cord
 # --- (FANC) EM dataset.
 
 def makejson_T1mn_bundles(kind=None,
