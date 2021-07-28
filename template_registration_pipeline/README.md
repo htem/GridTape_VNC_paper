@@ -1,7 +1,8 @@
 ## Folder descriptions:
 
-### run_elastix
-Scripts, parameter files, and instructions for running template registration yourself
+### run_elastix - DEPRECATED
+Scripts, parameter files, and instructions for running template registration yourself.
+See the repository [htem/run_elastix](https://github.com/htem/run_elastix) for updated versions of this code.
 
 
 ### register_EM_dataset_to_template

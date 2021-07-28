@@ -21,5 +21,9 @@ Download skeletons (.swc files) of the neuron reconstructions included in this p
 ### pymaid_utils
 A set of python scripts that extend [Philipp Schlegel](https://github.com/schlegelp)'s wonderful [pymaid package](https://github.com/schlegelp/pymaid). Pymaid makes it easy to interact with neuron reconstructions on a [CATMAID](https://catmaid.readthedocs.io/en/stable/) server, and pymaid_utils provides some additional functionality for easily opening a connection to [VirtualFlyBrain's CATMAID server](https://vnc1.catmaid.virtualflybrain.org/) where the reconstructions from this publication are hosted, as well as some other utilities. See code for details. Much of the code in `figures_and_analysis` uses this package.
 
+See the repository [htem/pymaid_addons](https://github.com/htem/pymaid_addons) for updated versions of the code in this folder.
+
 ### template_registration_pipeline
-A set of command line tools that allows users to perform elastic alignment of 3D image stacks, aimed at users wanting to register light microscopy stacks of VNC neurons to the VNC standard atlas. We provide a detailed README and hope that users find this pipeline straightforward to use. The workhorse of this pipeline is [Elastix](https://elastix.lumc.nl/) which works on Linux and Windows.
+A set of command line tools that allows users to perform elastic alignment of 3D image stacks, aimed at users wanting to register light microscopy stacks of VNC neurons to the VNC standard atlas. We provide a detailed README and hope that users find this pipeline straightforward to use. The workhorse of this pipeline is [elastix](https://elastix.lumc.nl/).
+
+See the repository [htem/run_elastix](https://github.com/htem/run_elastix) for updated versions of the code in the `run_elastix` subfolder.
