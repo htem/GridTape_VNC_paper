@@ -19,7 +19,7 @@ You can recreate the majority of the renderings and plots included in the public
 Download skeletons (.swc files) of the neuron reconstructions included in this publication's data release.
 
 ### pymaid_utils
-A set of python scripts that extend [Philipp Schlegel](https://github.com/schlegelp)'s wonderful [pymaid package](https://github.com/schlegelp/pymaid). Pymaid makes it easy to interact with neuron reconstructions on a [CATMAID](https://catmaid.readthedocs.io/en/stable/) server, and pymaid_utils provides some additional functionality for easily opening a connection to [VirtualFlyBrain's CATMAID server](https://vnc1.catmaid.virtualflybrain.org/) where the reconstructions from this publication are hosted, as well as some other utilities. See code for details. Much of the code in `figures_and_analysis` uses this package.
+A set of python scripts that extend [Philipp Schlegel](https://github.com/schlegelp)'s wonderful [pymaid package](https://github.com/schlegelp/pymaid). Pymaid makes it easy to interact with neuron reconstructions on a [CATMAID](https://catmaid.readthedocs.io/en/stable/) server, and pymaid_utils provides some additional functionality for easily opening a connection to [VirtualFlyBrain's CATMAID server](https://fanc.catmaid.virtualflybrain.org/) where the reconstructions from this publication are hosted, as well as some other utilities. See code for details. Much of the code in `figures_and_analysis` uses this package.
 
 See the repository [htem/pymaid_addons](https://github.com/htem/pymaid_addons) for updated versions of the code in this folder.
 
