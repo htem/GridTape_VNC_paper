@@ -1,7 +1,7 @@
 # GridTape-VNC paper
 This code repository accompanies the publication "Reconstruction of motor control circuits in adult Drosophila using automated transmission electron microscopy" by [Jasper Phelps](https://github.com/jasper-tms), [David Hildebrand](https://github.com/davidhildebrand), [Brett Graham](https://github.com/braingram) et al.
 
-We refer to the EM dataset as the Female Adult Nerve Cord, or FANC (pronounced "fancy").
+We refer to the EM dataset as the Female Adult Nerve Cord, or FANC (pronounced "fancy"). In the years since this paper's publication, a number of labs have continued working on FANC. The latest resources and information about our progress can be found at https://github.com/htem/FANC_auto_recon.
 
 See [GridTapeStage](https://github.com/htem/GridTapeStage) for resources related to building and running GridTape-compatible microscopes (TEMCA-GT).
 See the [Lee Lab Resources page](https://www.lee.hms.harvard.edu/resources) for additional resources.
